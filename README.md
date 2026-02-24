@@ -6,27 +6,27 @@
 
 <br>
 
-# Nome do projeto
+# Projeto: Exploração e Implementação de Dados de Saúde 
 
-## Nome do grupo
+## CardioIA Vision Lab
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/in/jonastadeufernandes">Jonas Tadeu V. Fernandes - RM563027</a>
+- <a href="https://www.linkedin.com/">Levi Passos Silveira Marques - RM56557</a>
+- <a href="https://www.linkedin.com/in/raphaelsilva-phael">Raphael da Silva - RM561452<</a> 
+- <a href="https://www.linkedin.com/in/raphael-dinelli-8a01b278">Raphael Dinelli Neto - RM562892</a> 
+- <a href="https://www.linkedin.com/in/yan-cotta">Yan Pimental Cotta - RM562836</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
 - <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/in/andregodoichiovato">André Godoi</a>
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+...
 
 
 ## 📁 Estrutura de pastas
@@ -54,15 +54,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
+* 0.1.0 - XX/XX/2026
     *
 
 ## 📋 Licença
