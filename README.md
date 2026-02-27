@@ -70,11 +70,27 @@ Entretanto, ao analisar a variável de severidade (num), verificou-se desbalance
 ### 4. Análise Visual
 Foram gerados gráficos de distribuição para:
 
-Presença/ausência de doença (classificação binária);
+### Figura 1 – Distribuição da Doença Cardíaca (Binária)
 
-Grau de severidade da doença;
+![Distribuição Binária](assets/images/grafico_target.png)
 
-Distribuição etária dos pacientes.
+A Figura 1 demonstra o equilíbrio entre pacientes saudáveis e diagnosticados com doença cardíaca.
+
+---
+
+### Figura 2 – Distribuição da Gravidade da Doença
+
+![Distribuição Gravidade](assets/images/grafico_gravidade.png)
+
+Observa-se desbalanceamento entre as classes de severidade.
+
+---
+
+### Figura 3 – Distribuição Etária dos Pacientes
+
+![Distribuição Idade](assets/images/grafico_idade.png)
+
+A maior concentração de pacientes encontra-se em faixas etárias adultas e idosas.
 
 A visualização reforça o equilíbrio da variável binária e evidencia o desbalanceamento das subclasses de gravidade. A distribuição de idade demonstra predominância de pacientes em faixas etárias adultas e idosas, perfil esperado em estudos cardiovasculares.
 
@@ -110,7 +126,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+Toda a análise exploratória do dataset pode ser executada navegando até o diretório src e executando o comando.
+```bash
+python analysis.py
 
 
 ## 🗃 Histórico de lançamentos
