@@ -32,7 +32,7 @@ O dataset utilizado contém 1.024 registros e 14 variáveis clínicas relacionad
 A análise inicial foi realizada com o objetivo de verificar a integridade, consistência e adequação dos dados para uso futuro em modelos de Inteligência Artificial aplicados à saúde cardiovascular.
 
 #### Observação: o script utilizado para a análise do dataset está disponível em: 
-[Script de análise exploratória](src/analysis.py)
+[Script de análise exploratória](./src/analysis.py)
 
 ### 2. Verificação de Qualidade e Integridade dos Dados
 Foram conduzidas as seguintes verificações:
