@@ -131,7 +131,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 Toda a análise exploratória do dataset pode ser executada navegando até o diretório src e executando o comando.
 ```bash
-python analysis.py
+python analisys.py
 ```
 
 
