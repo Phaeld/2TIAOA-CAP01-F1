@@ -78,7 +78,7 @@ Distribuição etária dos pacientes.
 
 A visualização reforça o equilíbrio da variável binária e evidencia o desbalanceamento das subclasses de gravidade. A distribuição de idade demonstra predominância de pacientes em faixas etárias adultas e idosas, perfil esperado em estudos cardiovasculares.
 
-5. Considerações para Aplicação em IA
+### 5. Considerações para Aplicação em IA
 A análise exploratória confirma que o dataset é adequado para aplicações de:
 
 Classificação binária (detecção de doença cardíaca);
