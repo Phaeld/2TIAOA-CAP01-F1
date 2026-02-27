@@ -26,7 +26,68 @@
 
 ## 📜 Descrição
 
-...
+### 1. Visão Geral do Conjunto de Dados
+O dataset utilizado contém 1.024 registros e 14 variáveis clínicas relacionadas a fatores de risco, exames e indicadores de doença cardíaca. As variáveis incluem atributos demográficos (idade e sexo), medidas fisiológicas (pressão arterial em repouso, colesterol sérico, frequência cardíaca máxima), além de variáveis categóricas associadas a exames e sintomas clínicos.
+
+A análise inicial foi realizada com o objetivo de verificar a integridade, consistência e adequação dos dados para uso futuro em modelos de Inteligência Artificial aplicados à saúde cardiovascular.
+
+### 2. Verificação de Qualidade e Integridade dos Dados
+Foram conduzidas as seguintes verificações:
+
+Identificação de valores nulos (NaN);
+
+Busca por possíveis valores ausentes mascarados (ex.: "?");
+
+Avaliação de valores mínimos para detectar possíveis inconsistências clínicas (como pressão arterial ou colesterol iguais a zero).
+
+Os resultados indicaram:
+
+Ausência de valores nulos explícitos;
+
+Ausência de valores inválidos representados por caracteres especiais;
+
+Valores mínimos clinicamente plausíveis nas variáveis contínuas (idade mínima de 18 anos, colesterol mínimo de 100 mg/dL e pressão arterial mínima dentro de limites fisiológicos possíveis).
+
+Dessa forma, conclui-se que o dataset apresenta boa qualidade estrutural para uso analítico, não sendo necessária, nesta fase, imputação ou tratamento adicional de dados ausentes.
+
+### 3. Definição e Análise das Variáveis Alvo
+O conjunto de dados apresenta duas variáveis relacionadas ao diagnóstico:
+
+target_binary: indica presença (1) ou ausência (0) de doença cardíaca;
+
+num: representa o grau de severidade da doença, variando de 0 a 4.
+
+Observou-se que:
+
+554 registros (54,1%) correspondem a pacientes sem doença cardíaca;
+
+470 registros (45,9%) correspondem a pacientes com diagnóstico positivo.
+
+Essa distribuição demonstra um bom balanceamento para classificação binária, reduzindo o risco de viés estatístico em modelos supervisionados que venham a ser treinados posteriormente.
+
+Entretanto, ao analisar a variável de severidade (num), verificou-se desbalanceamento entre as classes de gravidade. A classe 2 concentra a maior parte dos casos positivos, enquanto as classes 3 e 4 possuem representatividade significativamente menor. Esse comportamento pode influenciar o desempenho de modelos multiclasses, favorecendo a predição da classe majoritária.
+
+### 4. Análise Visual
+Foram gerados gráficos de distribuição para:
+
+Presença/ausência de doença (classificação binária);
+
+Grau de severidade da doença;
+
+Distribuição etária dos pacientes.
+
+A visualização reforça o equilíbrio da variável binária e evidencia o desbalanceamento das subclasses de gravidade. A distribuição de idade demonstra predominância de pacientes em faixas etárias adultas e idosas, perfil esperado em estudos cardiovasculares.
+
+5. Considerações para Aplicação em IA
+A análise exploratória confirma que o dataset é adequado para aplicações de:
+
+Classificação binária (detecção de doença cardíaca);
+
+Classificação multiclasses (predição de severidade);
+
+Estudos comparativos de fatores de risco.
+
+Contudo, para modelos multiclasses, poderá ser necessária a aplicação de técnicas de balanceamento (como oversampling, undersampling ou ponderação de classes) a fim de mitigar possíveis vieses decorrentes da distribuição desigual das classes de gravidade.
 
 
 ## 📁 Estrutura de pastas
