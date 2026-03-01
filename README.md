@@ -13,7 +13,7 @@
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/jonastadeufernandes">Jonas Tadeu V. Fernandes - RM563027</a>
 - <a href="https://www.linkedin.com/">Levi Passos Silveira Marques - RM56557</a>
-- <a href="https://www.linkedin.com/in/raphaelsilva-phael">Raphael da Silva - RM561452<</a> 
+- <a href="https://www.linkedin.com/in/raphaelsilva-phael">Raphael da Silva - RM561452</a> 
 - <a href="https://www.linkedin.com/in/raphael-dinelli-8a01b278">Raphael Dinelli Neto - RM562892</a> 
 - <a href="https://www.linkedin.com/in/yan-cotta">Yan Pimental Cotta - RM562836</a>
 
@@ -108,6 +108,44 @@ Estudos comparativos de fatores de risco.
 
 Contudo, para modelos multiclasses, poderá ser necessária a aplicação de técnicas de balanceamento (como oversampling, undersampling ou ponderação de classes) a fim de mitigar possíveis vieses decorrentes da distribuição desigual das classes de gravidade.
 
+### 6. Dados de Textos e Imagens
+
+Os textos utilizado para futura análise NLP (Natural Linguage Processece), são artigos retirados no site [scielo.org](https://www.scielo.org/pt-br/), onde foco do artigo é sobre **"A pessoa com insuficiência cardíaca na
+perspectiva da finitude: uma compreensão
+à luz de Martin Heidegger"** e o artigo **"Síndrome da Função Cardíaca Deficiente: 
+um novo diagnóstico de enfermagem para pessoas com insuficiência cardíaca"**.
+Referente a base de dados de imagem, foi pego do [Kaggle](https://www.kaggle.com), bsucando dataset de 100 imagens de exames de ECG (Eletrocardiograma), tendo 25 variações do exame, `post mi history ecg`,`normal ecg`,`mycardial infraction ecg` e `abnormal heartbeat ecg`.
+
+### 7. Processo de Limpeza e Escolha Imagens
+Objetivo do arquivo [text_prerocessing.py](src/text_preprocessing.py) é realizar a limpeza e padronização dos textos brutos armazenados em `data/raw/texts/`, preparando-os para uso futuro em tarefas de Processamento de Linguagem Natural (NLP). Ele lê cada arquivo `.txt`, aplica um pipeline de pré-processamento que inclui normalização para letras minúsculas, remoção de caracteres indesejados, eliminação de stopwords (palavras comuns sem valor semântico relevante), tokenização e filtragem de termos muito curtos ou numéricos, e então salva a versão limpa em `data/processed/texts/`. Dessa forma, o script organiza e transforma os dados textuais em um formato mais consistente e adequado para análises posteriores, como extração de sintomas, classificação de tópicos ou modelagem preditiva, mesmo que nesta etapa ainda não haja treinamento de modelos.
+
+
+> **Referente as imagens, estão disponível no Google Drive pelo link: [https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing](https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing)**
+
+As imagens escolhidas tem seguintes classes clínicas:<br>
+- `PMI` --> `post mi history ecg`;
+- `N` --> `normal ecg`;
+- `MI` --> `mycardial infraction ecg`;
+- `HB` --> `abnormal heartbeat ecg`;
+
+Sendo exames de pacientes do sexo **masculino M** e **Femenino F**.
+
+#### 7.1 Regras Escolha de Imagens para Minimizar Viés
+
+A regra utilizada para escolha da imagem foi:
+- 25 imagens de cada classe clínica, totalizando 100 imagens no total;
+- Sendo separado aproximadamente 11a 13 imagens de cada sexo, Masculino e Femenino.
+
+A escolha de organizar as imagens de ECG mantendo informações estruturadas no nome do arquivo (como classe clínica e sexo, por exemplo `HB01-M` e `HB02-F`) é importante porque preserva variáveis relevantes para futuras análises e evita a perda de contexto clínico. Ao manter diversidade nas classes (normal, arritmia, infarto etc.) e considerar características demográficas como sexo, o conjunto de dados se torna mais representativo da população real, reduzindo o risco de vieses no desenvolvimento de sistemas de IA. A ausência de diversidade pode levar modelos a apresentarem desempenho desigual entre grupos, gerando discriminação algorítmica e decisões clínicas menos precisas para determinados perfis. Portanto, uma seleção equilibrada e documentada das imagens contribui para maior robustez, transparência e responsabilidade no uso de Inteligência Artificial aplicada à saúde.
+
+### Figura 4 - Exemplo de Dado Classe Clínica Normal
+![Image ECG](assets/images/Normal(3).jpg)
+
+### 8. Considerações Sobre Dados Texto e Imagens
+
+A seleção e organização cuidadosa dos dados textuais e das imagens são fundamentais para reduzir vieses e promover maior responsabilidade no desenvolvimento de sistemas de IA aplicados à saúde. No caso dos textos, utilizar fontes confiáveis e incluir diferentes perspectivas (como diretrizes clínicas, estudos científicos e documentos de saúde pública) contribui para evitar uma visão limitada ou enviesada sobre doenças cardíacas, garantindo que os modelos futuros aprendam padrões mais amplos e contextualizados. Já nas imagens de ECG, manter diversidade de classes clínicas e considerar variáveis relevantes, como sexo biológico, ajuda a tornar o conjunto de dados mais representativo da população real. Conjuntos desequilibrados ou homogêneos podem levar a modelos que performam melhor para um grupo específico e pior para outros, gerando discriminação algorítmica. Assim, a organização estruturada e a diversidade intencional dos dados fortalecem a qualidade, a equidade e a confiabilidade de futuras aplicações de Inteligência Artificial na área da saúde.
+
+
 
 ## 📁 Estrutura de pastas
 
@@ -118,6 +156,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
 
 - <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+
+- <b>data</b>: Nesta pasta serve para armazenar os dados de textos e artigos.
 
 - <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
 
@@ -133,7 +173,10 @@ Toda a análise exploratória do dataset pode ser executada navegando até o dir
 ```bash
 python analisys.py
 ```
-
+Para executar código de tratamento e limpeza dos textos brutos de artigos, execute o comando.
+```bash
+python text_preprocessing.py
+```
 
 ## 🗃 Histórico de lançamentos
 
