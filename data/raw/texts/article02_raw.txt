@@ -1,0 +1,384 @@
+ABSTRACT
+Objectives: to identify whether the set of nursing diagnoses “Excessive fluid volume”, 
+“Decreased cardiac output”, “Decreased activity tolerance”, “Fatigue” and “Impaired comfort” 
+constitutes the “Deficient Cardiac Function Syndrome” in people with heart failure. Methods: 
+a cross-sectional analytical study, which included 360 participants who were assessed by 
+a cardiology nurse who used the nursing process and NANDA-International classification. 
+Latent class analysis and log-linear models were used to determine the occurrence of 
+nursing diagnoses by cluster. Results: “Fatigue” and “Excessive fluid volume” had the highest 
+sensitivity; “Decreased cardiac output” and “Impaired comfort” had the highest specificity; 
+“Decreased activity tolerance” had similar sensitivity and specificity. Latent class analysis 
+for the new diagnosis included all diagnoses. Nine combinations of diagnostic statuses 
+exhibited conditional dependence. Conclusions: the concomitant presence and strong 
+relationship between diagnoses provide evidence for the existence of a syndromic diagnosis 
+in this population.
+Descriptors: Syndrome; Heart Failure; Nursing Diagnosis; Nursing Process; Standardized 
+Nursing Terminology.
+RESUMO
+Objetivos: identificar se o conjunto de diagnósticos de enfermagem “Volume de líquido 
+excessivo”, “Débito cardíaco diminuído”, “Tolerância à atividade diminuída”, “Fadiga” e “Conforto 
+prejudicado” constitui a “Síndrome da Função Cardíaca Deficiente” em pessoas com insuficiência 
+cardíaca. Métodos: estudo transversal analítico que incluiu 360 participantes que foram 
+avaliados por enfermeira especialista em cardiologia que utilizou o processo de enfermagem 
+e classificação da NANDA-Internacional. Análise de classes latentes e modelos log-lineares 
+foram utilizados para determinar a ocorrência de diagnósticos de enfermagem por cluster. 
+Resultados: “Fadiga” e “Volume de líquido excessivo” apresentaram maior sensibilidade, 
+“Débito cardíaco diminuído” e “Conforto prejudicado” apresentaram maior especificidade. 
+“Tolerância à atividade diminuída” apresentou sensibilidade e especificidade semelhantes. 
+Análise de classe latente para o novo diagnóstico incluiu todos os diagnósticos. Nove 
+combinações dos status dos diagnósticos exibiram dependência condicional. Conclusões: 
+a presença concomitante e a forte relação entre os diagnósticos fornecem evidências da 
+existência do diagnóstico sindrômico nessa população. 
+Descritores: Síndrome; Insuficiência Cardíaca; Diagnóstico de Enfermagem; Processo de 
+Enfermagem; Terminologia Padronizada em Enfermagem.
+RESUMEN
+Objetivos: identificar si el conjunto de diagnósticos de enfermería “Volumen excesivo de 
+líquidos”, “Disminución del gasto cardíaco”, “Disminución de la tolerancia a la actividad”, 
+“Fatiga” y “Alteración del confort” constituyen un “Síndrome de Función Cardíaca Deficiente” 
+en personas con insuficiencia cardíaca. Métodos: estudio analítico transversal, que incluyó 
+a 360 participantes quienes fueron evaluados por una enfermera especialista en cardiología 
+que utilizó el proceso y clasificación de enfermería NANDA-Internacional. Se utilizaron análisis 
+de clases latentes y modelos log-lineales para determinar la ocurrencia de diagnósticos de 
+enfermería por cluster. Resultados: “Fatiga” y “Volumen excesivo de líquido” mostraron 
+mayor sensibilidad; “Disminución del gasto cardíaco” y “Confort deteriorado” mostraron 
+mayor especificidad; “tolerancia a la actividad disminuida” mostró una sensibilidad y 
+especificidad similares. El análisis de clases latentes para el nuevo diagnóstico incluyó todos 
+los diagnósticos. Nueve combinaciones de estados diagnósticos exhibieron dependencia 
+condicional. Conclusiones: la presencia concomitante y la fuerte relación entre los diagnósticos 
+evidencian la existencia del diagnóstico sindrómico en esta población.
+Descriptores: Síndrome; Insuficiencia Cardíaca; Diagnóstico de Enfermería; Proceso de 
+Enfermería; Terminología Normalizada de Enfermería.
+INTRODUCTION
+Heart failure (HF) is a highly prevalent and debilitating health 
+condition(1) that involves complex pathological processes that af-
+fect multiple dimensions of a person’s life(2). As a result, individuals 
+with HF experience multiple human responses simultaneously(3), 
+represented by clusters of nursing diagnoses (NDs). These clusters 
+are characterized as a syndrome if they comprise at least two 
+NANDA-International (NANDA-I)-approved diagnoses and the 
+same interventions are used to treat them(4).
+According to a literature review, people with HF often expe-
+rience several NDs simultaneously, which are often diagnosed 
+together by nurses in clinical practice, and for this reason, they 
+were selected to compose the syndromic diagnosis of this study. 
+These NDs include “Fatigue” (FA), “Excessive fluid volume” (EFV), 
+“Decreased activity tolerance” (DAT) and “Decreased cardiac output” 
+(DCO)(5). The expanded understanding of the term “syndrome” 
+as a multidimensional condition influenced the inclusion of the 
+“Impaired comfort” (IC) ND, with the purpose of meeting the 
+desire to compose a ND that identified compromised emotional 
+and social elements, in addition to physical elements.
+EFV is included in domain 2 (nutrition) and class 5 (hydration); 
+DCO, DAT and FA are included in domain 4 (activity/rest), the 
+first two diagnoses being in class 4 (cardiovascular/pulmonary 
+responses), and the third in class 3 (energy balance). Finally, IC is 
+included in domain 12 (comfort) and class 1 (physical comfort). 
+The occurrence of these NDs as a cluster is believed to be the 
+result of a common pathophysiological process (poor cardiac 
+function) that can be addressed with similar interventions. Thus, 
+altered cardiac muscle function result in the activation of adaptive 
+responses that trigger poor tissue perfusion(1) (correlated with 
+DCO) and volume overload(1) (correlated with EFV). Furthermore, 
+hypoperfusion culminates in the sustained perception of insuf-
+ficient energy to perform daily activities(1) (correlated with DAT) 
+and a disabling sensation of physical and mental exhaustion(1) 
+(correlated with FA). In addition to physical discomfort, negative 
+feelings arise from frequent hospitalizations, dependence on 
+caregivers, and interruption of work activities(6) (correlated with 
+HF). Still, none of the NDs of syndrome approved in the classifica-
+tion (2018-2020)(4), current edition, at the time of the beginning 
+of the study, seemed adequate to accurately document the hu-
+man responses presented by people with decompensated HF.
+Therefore, the “Deficient Cardiac Function Syndrome” ND 
+was developed based on scientific literature in health and the 
+clinical experience of the authors of this study. It was defined 
+as “physical, emotional, psychosocial, and spiritual distress due 
+to a decrease in the heart’s ability to pump blood to the body 
+and to the adaptive responses to the insulted heart muscle”. The 
+defining characteristics (DCs) of the syndromic ND are FA, EFV, 
+DAT, IC, and DCO. The related factor comprises structural and/or 
+functional cardiac dysfunction.
+OBJECTIVES
+To identify whether the set of NDs FA, EFV, DAT, IC and DCO 
+constitutes the “Deficient Cardiac Function Syndrome” in people 
+with HF.
+METHODS
+Ethical aspects 
+This study was conducted in accordance with ethical principles 
+and was approved by the Research Ethics Committee. The Informed 
+Consent Form (ICF) was obtained from all individuals involved in 
+writing, and data confidentiality was ensured(7).
+Study design, period and place
+This is an analytical cross-sectional study that followed the 
+STrengthening the Reporting of OBservational studies in Epidemi-
+ology guidelines(8). Data collection was carried out between April 
+2019 and May 2022, in a public emergency room (ER) specialized 
+in cardiovascular conditions, in São Paulo, Brazil. 
+Population or sample; inclusion and exclusion criteria 
+Sample size was established considering the latent class 
+analysis (LCA) technique for inference of each ND individually(9). 
+DCO was selected to define sample size, as it has the largest 
+number of DC (n=36)(4). A proportion of ten participants per DC 
+determined a sample size at 360.
+Participants with a medical diagnosis of decompensated HF, 
+aged 18 years or older, admitted to the ER for no more than six 
+hours, and with New York Heart Association functional classes 
+(FCs) III and IV(10) were included. Participants with reduced level 
+of consciousness and/or confusion, hemodynamic instability, and 
+those who required tracheal intubation during data collection 
+were excluded.
+Study protocol
+All individuals admitted to the ER with decompensated HF 
+who met the eligibility criteria were invited to participate in the 
+study and signed the ICF.
+Sociodemographic (age, sex, race, marital status, religion, 
+education, and occupation) and clinical data (previous and cur-
+rent health history, medications, and test results) were collected 
+through in-person interviews by the principal investigator (PI), 
+followed by a physical examination and medical record review. 
+Furthermore, the validated Brazilian versions of the Dutch Fatigue 
+Scale (DUFS) and the Dutch Exertion Fatigue Scale (DEFS)(11) were 
+used to assess NDs FA due to their abstract nature. These tools 
+contain eight and nine items, respectively. Each item is followed by 
+a 5-point Likert scale. The total score for each scale is given by the 
+sum of the scores for each item. The total DUFS and DEFS scores 
+were used to determine the presence of FA. The presence of FA 
+was diagnosed when the total DUFS scores were greater than or 
+equal to 14.5, and the presence of exertional FA was diagnosed 
+when the total DEFS scores were greater than or equal to 12.5(12).
+To determine the presence of other NDs, the PI used her clini-
+cal expertise and the NANDA-I 2018-2020 classification (current 
+at the time of data collection). These supported clinical judg-
+ment that culminated in the clinical decision-making about the 
+presence of NDs. The data collection instruments for each ND
+studied considered all DCs and other elements such as definition, 
+associated factors, associated conditions and populations at risk, 
+as appropriate. Finally, to determine the presence of “Deficient 
+Heart Function Syndrome” for this study, at least two NDs had to 
+be diagnosed. Data collection lasted an average of 30 minutes. 
+Patients were assessed by the PI at a single time point within the 
+first six hours of admission to the ND due to expected changes 
+in clinical status secondary to HF treatment.
+Data collection was carried out only by the PI due to challenges 
+related to the availability of professionals to collect information 
+at the time the study was carried out, which coincided with the 
+pandemic period. 
+Data and statistics analysis
+Descriptive statistics were used to describe the variables. 
+For the proportions of categorical variables, 95% Confidence 
+Intervals were calculated. 
+In order to identify a representative structure for each syn-
+drome ND component, five models based on LCA with random 
+effects were adjusted. LCA is an analytical technique used to 
+calculate accuracy measures of clinical indicators when there is 
+no perfect reference standard, considering the hypothesis that 
+an unobserved or latent variable (ND) indicates the associations 
+between observable variables (clinical indicators)(9).
+Each model was based on two latent classes to represent 
+the presence or absence of each ND under study. Each model 
+was considered adjusted when all the characteristics included 
+presented at least one accuracy measure (sensitivity or specific-
+ity) with values greater than 50%, based on the lower range 
+of their confidence interval. Then, for each adjusted model, 
+the posterior probabilities of latent classes were calculated in 
+order to represent the diagnostic inference to be used to define 
+each participant’s status in relation to the presence/absence of 
+each of the five diagnoses. After this inference, a new LCA was 
+adjusted based on the distribution of the five diagnoses, and 
+measures of diagnostic accuracy were obtained, which were 
+interpreted in relation to the probability of expression of “Defi-
+cient Heart Function Syndrome”. Subsequent probabilities were 
+also calculated to identify the different forms of expression of 
+this syndrome among individuals assessed. For each individual 
+diagnosis and for the syndrome, estimates of its prevalence are 
+also presented. Finally, to analyze the simultaneous occurrence 
+of NDs and characterize this group of diagnoses as a syndrome, 
+log-linear models were adjusted for all possible combinations 
+of occurrence of the five diagnoses. The model coefficients with 
+their respective confidence intervals are presented and represent 
+the magnitude of conditional dependence whenever their values 
+are positive. Moreover, a Z-test was calculated to test the null 
+hypothesis of conditional independence. A significance level of 
+5% was adopted for this analysis.
+RESULTS
+A total of 360 individuals admitted to the ER with decompen-
+sated HF were assessed. The majority were male (n=219; 60.8%), 
+aged between 61 and 70 years (n=102; 28.3%), white (n=213; 
+60.3%), retired (n=167; 46.4%) and with an average of 7.51 years 
+of education. The majority of participants were classified as IV 
+FC (n=187=51.9%), with hemodynamic profile B (n=229; 63.6%), 
+reduced ejection fraction (n=257; 71.4%) and biventricular dysfunc-
+tion (n=187; 51.9%). The most prevalent etiology was ischemic 
+(n=112; 31.1%), and the major precipitants of decompensation 
+were inadequate diet (n=126; 35%), non-adherence to medica-
+tion (n=102; 28.3%) and infections (n=98; 26.4%).
+FA was diagnosed in 84.17% of the sample. Seven of the 16 
+DCs had sensitivity and specificity greater than 80% (Table 1). 
+The posterior probabilities for the presence of FA were strongly 
+influenced by the simultaneous occurrence of the seven DCs 
+that had high sensitivity and specificity. 
+EFV was diagnosed in 80.24% of the sample. All of its DCs, 
+except “Increased central venous pressure”, were identified and 
+presented sensitivity and specificity measures higher than 50%. 
+Of this set, eight DCs showed high sensitivity (>80%); 15 showed 
+high specificity (>70%); and three showed similar sensitivity and 
+specificity (>70%) (Table 1). The DCs with the highest sensitivity 
+were present in almost all combinations that demonstrated a 
+higher probability for the presence of diagnosis.
+The prevalence of DAT was 54.16%. All of its DCs were identified 
+in the sample. However, two of them (“Exertional discomfort” and 
+“Exertional dyspnea”) were identified in all participants and did 
+not compose the final LCA. Of the remaining five, three showed 
+high sensitivity (>70%); one showed high specificity (100%); 
+and another presented high values   for both sensitivity and 
+specificity (>70%) (Table 1). The posterior probabilities showed 
+the importance of the “Abnormal heart rate response to activity” 
+DC, as it comprises all the combinations that point to a greater 
+probability of this diagnosis occurring. 
+The estimated prevalence of IC was 44.71%. Nine DCs showed 
+high specificity (>90%). On the other hand, four DCs showed high 
+sensitivity (>80%), and three DCs showed high values   of both 
+sensitivity and specificity (>90%) (Table 1). All sets consisted of at 
+least two DCs with high sensitivity and one with high specificity.
+The prevalence of DCO was 37.22%. The low prevalence was 
+due to the absence of DCs of this ND in the sample. Unlike the 
+other NDs, 11 DCs were not identified in the sample, and the 
+remaining 25 had higher specificity. Furthermore, 14 DCs also 
+had sensitivity greater than 50%; eight had sensitivity greater 
+than 80%; and two had sensitivity greater than 90% (Table 1). 
+LCA revealed a large number of different combinations of several 
+DCs occurring concomitantly.
+Table 1 presents the diagnostic accuracy measures of the DCs 
+of the studied NDs.
+After using the posterior probabilities of each ND to determine 
+the presence or absence of each ND, the syndrome’s LCA included 
+the five diagnoses. Table 2 presents the accuracy measures of the 
+“Deficient Heart Function Syndrome” DC and its prevalence. In this 
+model, EFV and FA had the highest sensitivity values, while DCO 
+and IC had the highest specificity. Both sensitivity and specificity 
+for DAT were approximately 70%.
+Table 3 shows the posterior probabilities for the occurrence 
+of “Deficient Heart Function Syndrome”.
+In Table 3, the sets represent the different combinations (pres-
+ent/absent) of each ND (in the case of the syndrome, DCs would 
+be the five NDs investigated). These sets were obtained directly 
+from the sample, and their frequency is described in the “n” col-
+umn. A total of 31 different combinations were identified. In the 
+table, only the combinations in which the syndrome presence 
+probability was greater than 0.5 were shown. Furthermore, the
+posterior probabilities suggest a strong influence of IC, since this 
+ND was present in almost all sets that demonstrated a higher prob-
+ability of the syndrome occurring. Most of participants identified 
+with the syndrome presented three or more NDs concomitantly.
+Table 4 presents the log-linear models that represent the 
+combinations of the five diagnoses that exhibited conditional 
+dependence relationships between them.
+As shown in Table 4, nine combinations of the five NDs showed 
+conditional dependence. The concomitant presence of the five 
+NDs indicates a strong relationship between them.
+DISCUSSION
+This is the first study to examine whether FA, EFV, DAT, IC, and 
+DCO constitute “Deficient Heart Function Syndrome”.
+In line with our findings, FA was highly prevalent in HF in an-
+other investigation(5). This is consistent with the pathophysiological 
+mechanisms of HF of water retention and poor tissue perfusion, 
+which results in a sustained perception of tiredness and inability 
+to perform usual physical and mental activities. However, due to 
+the subjective nature of this ND, its identification requires specific 
+training, in addition to the use of reliable assessment methods(13). 
+EFV was present in 80.24% of participants. The DCs with the 
+highest sensitivity portray classic manifestations presented by 
+people with decompensated HF(14,15). This myriad of signs and 
+symptoms reflects volume overload(1). In fact, this ND is frequently 
+documented in the presence of congestive symptoms(16), and is 
+related to the risk of clinical worsening(17).
+The prevalence of IC was 44.71% in our study, which contrasts 
+with a prevalence of 86% found in a retrospective study of 144 
+medical records of older adults with HF(18). This difference may be 
+due to the time period in which data were collected from partici-
+pants. Meanwhile, in our study, we included participants who had 
+been admitted to the ND for no more than six hours, and in the 
+aforementioned study, the researchers took into account the entire 
+length of hospital stay. Physical comfort is affected in people with 
+decompensated HF due to the worsening of clinical manifestations 
+that negatively impact daily activities and quality of life(6).
+The prevalence of DAT was 54.16% in our sample. The literature 
+is prolific in demonstrating that this ND is common in people with 
+decompensated HF(5,13). Three DCs of DAT that were considered 
+highly sensitive in this study were critical in providing clinical 
+evidence to support this ND in a previous study(19). Among these 
+DCs, “Abnormal heart rate response to activity” appears to be of 
+particular relevance and is attributed to DCO(20).
+DCO had the lowest prevalence among the five NDs. Regarding 
+the DCs with the highest sensitivity, a Brazilian survey of people with 
+HF identified five DCs for this diagnosis, supporting the findings 
+of this study(13). The DCs with the highest specificity suggest the
+critical and priority nature of this diagnosis for this population(14). 
+However, DCO was not identified in most participants in this in-
+vestigation due to the phenotypic variation of decompensated HF, 
+since some participants did not present signs of poor perfusion, a 
+vital element for the typification of this diagnosis(15). Similar to our 
+findings, other authors identified DCO in 16% of their sample(18). 
+In another recent study, four new related factors were found for 
+DCO, supporting its relevance in clinical practice(21).
+This study provides evidence that the five NDs (FA, EFV, DAT, 
+IC, and DCO) occur simultaneously, suggesting that together they 
+constitute “Deficient Heart Function Syndrome”. This evidence is 
+supported by the strong relationship between the NDs and their 
+conditional dependence. In fact, HF presents a multifaceted and 
+cascading behavior, portraying the influence of one event on the 
+appearance of another(22). Likewise, an affected human response 
+influences the expression of other human responses, which may 
+signal the relevance of a syndrome diagnosis.
+The estimated prevalence of “Deficient Heart Function Syn-
+drome” was 61.49%. EFV and FA had the highest sensitivity, 
+which refers to the ability of these NDs to identify individuals 
+with the syndrome. Since they are highly sensitive NDs, only a 
+few individuals diagnosed with the syndrome will be missed and 
+the number of false negative results is low(23). In turn, DCO and IC 
+had the highest specificity. This means that if these NDs are not 
+identified, it is likely that individuals do not have the syndrome 
+ND. Since DCO and IC are highly specific, when identified, there 
+will be few false-positive cases of the syndrome. 
+It is worth mentioning that the NANDA-I(24) 2024-2026 edition 
+excluded DCO and IC from its structure, but even so, these NDs 
+have been the most frequently used by nurses(5), having been 
+observed, through this study, a significant prevalence of each of 
+them based on clinical evidence and their occurrence together 
+in the clinical context in which it was applied. 
+Study limitations
+The generalizability of our findings is subject to certain limita-
+tions, and cannot be extrapolated to all patients with HF, since the 
+syndrome ND was investigated only in people with decompensated 
+HF and in a single highly specialized center. Furthermore, the fact 
+that assessments were performed exclusively by the PI, without 
+validity by other specialists, may be a bias, despite the PI’s efforts 
+to accurately document clinical findings and decision-making. 
+Furthermore, data collection occurred during the pandemic, 
+which may have influenced the findings on FA. Finally, elements 
+from the previous edition of NANDA-I (2018-2020), a publication 
+valid at the time the study was conducted, were considered. 
+Contributions to nursing
+For the first time in the literature, it has been demonstrated 
+that FA, EFV, DAT, HF, and DCO can constitute the “Deficient 
+Heart Function Syndrome” ND. Addressing human responses as 
+a syndrome has several advantages: the syndrome may more 
+accurately represent the human response to HF; managing a 
+syndrome ND may be more cost-effective than addressing each 
+ND separately; and a syndrome ND will facilitate appropriate 
+nursing documentation. Regarding research, future studies 
+should investigate clinical validity of “Deficient Heart Function 
+Syndrome” in other groups of people. In addition, studies to 
+map nursing-sensitive outcomes for this ND and intervention 
+tests should be performed. Finally, this study made it possible 
+to identify that the NDs that constitute the syndromic diagnosis 
+are identified in clinical practice, adding evidence of the need 
+for new investigations that support the new inclusion of NDs 
+removed from the current edition of NANDA-I.
+CONCLUSIONS
+The simultaneous occurrence of FA, EFV, DAT, IC and DCO 
+indicates a strong relationship between them, providing strong 
+evidence of a syndrome ND in people with decompensated HF. 
+Furthermore, the occurrence of these NDs in clusters as an un-
+folding of common causal factors can be addressed with similar 
+nursing interventions.

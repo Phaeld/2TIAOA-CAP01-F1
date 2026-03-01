@@ -1,0 +1,670 @@
+ABSTRACT
+Objective: To understand the experience of finitude from people with advanced-stage heart failure. 
+Method: Phenomenological study conducted in a tertiary referral hospital in cardiology, in Fortaleza - CE, from August 
+to  October  2022. The  participants  were  11  patients  with  advanced-stage  heart  failure.  Data  collection  was  conducted  
+through  semi-structured  interviews,  and  the  speeches  were  recorded  and  transcribed  for  analysis  using  Heideggerian  
+hermeneutic circle. 
+Results: Of the 11 participants, eight were men; ages ranged from 43 to 82 years. The results were processed through 
+the hermeneutic reduction process, which allowed the construction of two categories: (1) Being-with the other in heart 
+illness and finitude, consisting of meanings related to the patients’ physical conditions, their limitations and possibilities, 
+and their interpersonal relationships, (2) The construction of being-toward-death, in which patients spoke about their 
+fears, anxieties, perceptions, and concerns in the face of finitude. 
+Final considerations: The person with heart failure in the perspective of finitude experiences a phenomenon marked by 
+the lack of information about the severity of the disease and the proximity of the end, which hinders the communication 
+of their needs and conscious choices, resulting in an inauthentic existence. 
+Descriptors: End-of-Life Care; Heart Failure; Nursing; Fenomenology.
+RESUMO
+Objetivo: Compreender a experiência de finitude de pessoas com insuficiência cardíaca avançada.
+Método:  Estudo  fenomenológico  realizado  em  hospital  terciário  de  referência  em  cardiologia,  em  Fortaleza  -  CE,  de  
+agosto a outubro de 2022. Os participantes foram 11 pacientes com insuficiência cardíaca em fase avançada. A coleta de 
+dados deu-se mediante entrevista semiestruturada e os discursos foram gravados e transcritos para análise por meio do 
+círculo hermenêutico heideggeriano.
+Resultados: Dos 11 participantes, oito eram homens; a idade variou entre 43 e 82 anos. Os resultados foram trabalhados 
+por  meio  do  processo  de  redução  hermenêutica,  que  permitiu  a  construção  de  duas  categorias:  (1)  Ser-com  o  outro  
+no adoecimento cardíaco e finitude, constituída pelos significados relacionados às condições físicas dos pacientes, suas 
+limitações,  possibilidades  e  relações  interpessoais,  (2)  A  construção  do  ser-para-a-morte,  na  qual  os  pacientes  falam  
+sobre seus medos, angústias, percepções e preocupações diante da finitude.
+Considerações  finais:  A  pessoa  com  insuficiência  cardíaca  em  perspectiva  da  finitude  vive  um  fenômeno  marcado  
+pela ausência de informação sobre a gravidade da doença e proximidade do fim, o que dificulta a comunicação de suas 
+necessidades e escolhas conscientes, resultando em uma existência inautêntica.
+Descritores: Cuidados de Fim de Vida; Insuficiência Cardíaca; Enfermagem; Fenomenologia.
+RESUMEN
+Objetivo: Comprender la experiencia de finitud de las personas con insuficiencia cardíaca avanzada.
+Método: Estudio fenomenológico realizado en un hospital terciario de referencia en cardiología, en Fortaleza - CE, de agosto a octubre de 2022. Los participantes 
+fueron  11  pacientes  con  insuficiencia  cardíaca  en  fase  avanzada.  La  recolección  de  datos  se  realizó  mediante  entrevistas  semiestructuradas,  y  los  discursos  fueron  
+grabados y transcritos para su análisis mediante el círculo hermenéutico heideggeriano. 
+Resultados: De los 11 participantes, ocho eran hombres; las edades oscilaron entre 43 y 82 años. Los resultados se procesaron a través del proceso de reducción 
+hermenéutica, lo que permitió la construcción de dos categorías: (1) Ser-con el otro en la enfermedad cardíaca y la finitud, constituida por los significados relacionados 
+con las condiciones físicas de los pacientes, sus limitaciones y posibilidades, y sus relaciones interpersonales, (2) La construcción del ser-para-la-muerte, en la cual los 
+pacientes hablaron sobre sus miedos, ansiedades, percepciones y preocupaciones frente a la finitud. 
+Consideraciones  finales:  La  persona  con  insuficiencia  cardíaca  en  la  perspectiva  de  la  finitud  vive  un  fenómeno  marcado  por  la  falta  de  información  sobre  la  
+gravedad  de  la  enfermedad  y  la  proximidad  del  final,  lo  que  dificulta  la  comunicación  de  sus  necesidades  y  elecciones  conscientes,  resultando  en  una  existencia  
+inauténtica. 
+Descriptores: Cuidados al Final de la Vida; Insuficiencia Cardíaca; Enfermería; Fenomenología.
+INTRODUCTION
+Cardiovascular diseases are the leading cause of 
+death worldwide and nationally. It is estimated that by 
+2040, there will be a 250% increase in these events in 
+Brazil(1). Heart failure (HF) requires large public expen-
+ditures and causes multiple losses to patients and their 
+families(2). Patients who progress to advanced-stage HF 
+often face the exhaustion of disease-modifying thera-
+pies, physical limitations, loss of autonomy, exacerbation 
+of symptoms, and approaching finitude(3). 
+Patients with heart failure often require palliative 
+care (PC), an approach that promotes the quality of life 
+of patients and their families when faced with prob-
+lems associated with life-threatening diseases; that 
+prevents and alleviates suffering through early identi-
+fication, proper assessment, and treatment of pain and 
+other physical, psychosocial, and spiritual problems(4). 
+However, access to palliative care for patients with HF 
+remains a challenge(5). 
+There is a significant gap in knowledge about end-
+of-life care for patients with heart failure, with barriers 
+related to recognizing terminality and late integration 
+of palliative care, especially when compared to other 
+chronic conditions, such as cancer(6).
+Many healthcare professionals are reluctant to dis-
+cuss prognosis and end-of-life care with patients with 
+heart failure, and may not feel comfortable addressing 
+these topics, which can delay the implementation of 
+palliative care(7). The transition of patients with HF to 
+palliative care is still complicated, and there is a diffi-
+culty in addressing this topic in the early stages of the 
+disease, in addition to the lack of integration between 
+curative and palliative care(8).
+The experience of people with advanced-stage 
+heart failure involves a difficult prognosis, and nurses 
+need to identify the specific needs of this popula-
+tion. Understanding the experience of people with HF 
+from a finite perspective can allow the development 
+of interventions that promote person-centered care, 
+humanized assistance, and respect for patient autono-
+my, valuing shared decision-making and contributing 
+to the consolidation of palliative care for patients with 
+heart disease. Thus, the guiding question of this study 
+was: “How does the person with heart failure in the 
+perspective of finitude experience it?”.
+Thus, the study aimed to understand the experience 
+of finitude of people with advanced-stage heart failure.
+METHOD
+Study design
+This is a qualitative phenomenological study based 
+on the theoretical and philosophical assumptions of 
+Martin Heidegger, according to his work Being and 
+Time(9). Phenomenological research seeks the essence 
+of the phenomenon through the experience report 
+of the being studied. The researcher approaches the 
+being and seeks to look at the phenomenon as it shows 
+itself in its own experience, seeking to understand the 
+phenomenon that presents itself to consciousness(10). 
+In this way, the Heideggerian framework allows the 
+researcher to immerse himself in the experience of the 
+person with HF from a perspective of finitude, bringing 
+them closer to its essence and meaning through the 
+discourse of Being-there.
+To ensure the quality of the study, the Consolidated 
+Criteria for Reporting Qualitative Review (COREQ) guide 
+was used, a 32 item checklist distributed in three do-
+mains (Research team and reflexivity; Study concept; 
+Analysis and results) for interviews and focus groups, 
+adapted to Brazilian Portuguese(11).
+Study location and setting
+The research was conducted in a tertiary public 
+hospital, a reference in cardiopulmonary care, from 
+August to October 2022. The study settings were the 
+hospital wards with patients with advanced-stage heart 
+failure. The institution was chosen since it offers all the 
+high-complexity procedures and serves patients from 
+the 184 municipalities of Ceará and the North and 
+Northeast regions of the country. 
+Participant selection criteria
+The study included hospitalized patients over 18 
+years of age and who met criteria for advanced-stage 
+heart disease according to the Supportive and Palliative 
+Care Indicators Tool (Brazilian version) SPICT - BR, func-
+tional class III/IV of the New York Heart Association 
+(NYHA), heart failure or extensive and untreatable cor-
+onary disease, as well as refractory symptoms despite 
+optimized therapy(12). It is important to note that, despite 
+meeting the SPICT - BR criteria, the patients were not 
+being monitored by a palliative care team, even though 
+the institution has such service.
+Patients who were unconscious or disoriented were 
+excluded due to their inability to respond to the ques-
+tions. The focus of phenomenological research is on 
+the described phenomenon and the understanding 
+of the experience, therefore, data saturation was used 
+as the criterion for concluding the interviews. Data 
+saturation is a dynamic phenomenon that emerg-
+es from the recurrence and density of the collected 
+nformation, ensuring the robustness and consistency 
+of the qualitative findings, and it is a continuous process 
+that involves the reflective judgment of the researcher 
+during data analysis(13). The sufficiency of the material 
+was demonstrated through the repetition of the themes 
+in the participants’ statements.
+Thus, according to the inclusion and exclusion cri-
+teria, 11 patients with heart failure in the context of 
+finitude participated in the study.
+Data collection – The phenomenological encounter
+Entering the world of the Being in heart illness at 
+the end of life requires personal preparation from the 
+phenomenological researcher to establish an approach 
+favorable to the opening of the Being-there. It is im-
+portant to note that the researcher approached the 
+participant in an empathetic manner, to express re-
+ception and acceptance; the interviewee was informed 
+about the study’s objective and the voluntary nature 
+of participation, so that the report of their experiences 
+and perceptions would be as authentic as possible. The 
+interviews were conducted by a female doctoral stu-
+dent with extensive experience in qualitative research. 
+In this context, the interviews were grounded on 
+the following guiding question: “What is your under-
+standing of your heart illness?”, which aimed to unveil 
+the condition of being cast into a serious heart disease 
+with no prospect of clinical change. The statements 
+were recorded for later transcription and analysis. Some 
+participants had access to the transcribed material (they 
+provided feedback on the results), while others did not 
+due to the impossibility of contact after data collection 
+period. Family members and companions were kept 
+distant at the time of the interview to preserve the 
+participant’s privacy. Each participant was interviewed 
+once, and each meeting lasted an average of 40 minutes.
+Data analysis and treatment 
+The narratives were understood and interpreted 
+through the Heideggerian hermeneutic circle, which 
+is composed of the previous position, previous vision 
+and previous conception. The previous position com-
+prises the initial stage, indicating that the interpretation 
+already has a position that allows the horizon of the 
+articulations; the second moment, called the previous 
+vision, is the perspective from which the set of artic-
+ulations is viewed and approached; and the previous 
+conception, the third moment, consists of the under-
+standing of the set of previous positions and visions(7).
+The care of the phenomenon followed this circle in 
+search of the meaning behind the hidden phenome-
+non, or the truth as aletheia, a Greek term that means 
+unveiled and was revisited by Heidegger in his work 
+Being and Time(9). The hermeneutic circle consists of in-
+terconnected stages that allow a continuous movement 
+enabling the understanding of the whole from its parts 
+so that the researcher can grasp the meaning behind 
+the statements, getting closer to the true presentation 
+of the experiences(10).
+Heidegger(9) highlights that the rational concept of 
+truth consists of the agreement or adequacy of knowl-
+edge to its object; in his thinking, truth is the Being 
+and the uncovered Being by the entity itself, it is what 
+allows itself to be seen from within itself, that is, what 
+is unveiled; truth is a presentation of things, and not 
+a representation.
+To proceed with this unveiling, it is necessary to 
+consider that Being can only be understood if revealed 
+in its existential horizon, which here occurred through 
+the existential plot that involves each study participant, 
+understanding their experiences in the time and space 
+of cardiac illness.
+In this way, the participants’ statements were fully 
+transcribed and read repeatedly, seeking to immerse in 
+the participants’ experience, to grasp the content and 
+to recognize the themes addressed. Subsequently, the 
+statements were divided into meaningful segments, 
+respecting the pauses and the thematic changes in 
+the statements.
+The segments extracted from the interviews were 
+analyzed in search of latent meaning and, subsequently, 
+these units of meaning were grouped by similarities 
+and proximity of themes and experiences, giving rise 
+to thematic categories.
+The interpretative analysis of the categories occurred 
+in a circular movement between the empirical data 
+and the Heideggerian theoretical framework, which
+allowed the phenomenon to be understood in its ex-
+istential depth, revealing the meanings underlying the 
+experience of Being in the context of cardiac illness 
+from the perspective of finitude.
+The  participants’  statements  were  coded  with  
+numbers and only the researcher had access to the 
+interviewees’ names to guarantee anonymity; this data 
+management was done using Excel. However, no soft-
+ware was used for data analysis and categorization.
+Ethical aspects
+All ethical and legal precepts of research involving 
+human beings were respected, and the project was 
+approved by the institution’s research ethics commit-
+tee, Opinion No. 4.975.015/2021 and all who agreed to 
+participate signed the Informed Consent Form (ICF).
+RESULTS
+Of the 11 participants, 8 were men; ages ranged from 
+43 to 82 years old, 8 were Catholic, 2 were Evangelical 
+and 1 practiced Umbanda. All had been hospitalized for 
+more than 15 days; the longest hospitalization among 
+the patients was 60 days; 9 had previously been hos-
+pitalized due to heart disease and only 2 were in their 
+first hospitalization. The patients’ income ranged from 
+no income to 3 minimum wages, with an income of 1 
+minimum wage predominating. Only 2 patients were 
+unaccompanied in the hospital and among those with 
+companions, wives and daughters were the most com-
+mon companions. 
+The process of hermeneutic reduction gave rise 
+to two categories: Being-with the other in cardiac ill-
+ness and finitude and The construction of being-to-
+ward-death (Figure 1).
+The category Being-with the other in cardiac illness 
+and finitude was composed by the meanings related to 
+the physical conditions of the patients, their limitations 
+and possibilities, and their interpersonal relationships, 
+whether with family members, professionals, or other 
+patients. The following statements refer to the limita-
+tions experienced by the patients.
+If you get ill and can no longer do your things, it 
+becomes a burden and you suffer, it’s really bad. 
+(Participant 04)
+Not being able to work properly, not being able 
+to go for a walk because if I walk 50 meters, I get 
+tired. That’s it, not having the freedom to do what 
+I want, I have to be restricted, and I’ll be even more 
+restricted. (Participant 08)
+In addition to the limitations described, the patients 
+also talk about their relationships with other people, 
+whether professionals, family members, or other pa-
+tients. Some of these statements point to loneliness, as 
+sometimes these patients do not have the opportunity 
+to talk, which corroborates the silence and misinfor-
+mation about their health condition.
+ have two children, but that’s the least of it. They live 
+their lives, and I live mine. (Participant 08)
+I think you are a person of God. Who comes to talk 
+to the patient. There are patients here who don’t get 
+a visit from a nurse, they just give them a pill and 
+that’s it. (Participant 04)
+I need help with the pumps. Bathing, I do it by myself. 
+But sometimes I want to go early in the morning, and 
+that lady there is sleeping [the patient’s companion 
+next to me], so I won’t wake her up. (Participant 05)
+In the second category, The construction of the 
+being-toward-death, it is possible to perceive the pro-
+cess experienced in search of the construction of the 
+being-toward-death. 
+The medicines are good and I ask God to give me 
+peace of mind until the day I leave this Earth, be-
+cause He is the Father. (Participant 01)
+I prefer it to be like this, when the day comes when 
+I go (die) and He wants to take me, that is how it is 
+too, because I don’t want to depend on others or on 
+medication [...] people say: ‘oh why are you going 
+to keep taking medicine for the rest of your life? I 
+won’t’ [...] I have faith in my Father that soon, soon 
+He will put an end to it. (Participant 06)
+He died all at once (the patient’s mother), it wasn’t 
+a burden. It was too beautiful (death). It was good 
+because it wasn’t a burden. (Participant 04)
+In the following excerpts, the patients talk about their 
+fears, anxieties, perceptions and concerns regarding 
+the finitude and limitations related to cardiac illness 
+and the consequences of this condition in their lives.
+I was very sad when I found out about this disease, 
+because I thought it was all over, right, because 
+the doctor said I couldn’t do this, couldn’t do that, I 
+couldn’t... then it was sad. (Participant 03)
+Disgusted because I still have a lot to live for, many 
+years ahead. (Participant 05)
+I’m afraid of being dependent on others, right?! 
+(Participant 06)
+I’m not afraid. If God takes me, I don’t care either, 
+I’m not afraid at all. (Participant 09)
+The interviewees also express their regrets and 
+frustrations,  as  well  as  their  perceptions  of  the  life  
+they’ve lived.
+I used to work a lot and now I’m seeing that I didn’t 
+need to. Whenever I had work, I would work all 
+day.  I  regret  some  efforts  that  I  shouldn’t  have  
+made. I’m going to work less and free myself more. 
+(Participant 08)
+My life never had a good period. (Participant 03)
+I was killing myself over things that weren’t worth 
+it. (Participant 10)
+Participants also discussed the lack of knowledge 
+about their health condition, often referring to concerns 
+and anguish in the face of events that unfold and cover 
+up the phenomenon experienced.
+They [the team] are very complicated. One day I have 
+one illness, another day another, then another, then 
+another. And my head is confused, not knowing 
+what I have. (Participant 03)
+I have to keep coming to the doctor, I have been 
+doing it all the time, I am being treated, and it had 
+only been a month since I went to the doctor, but 
+he saw these problems and didn’t say anything. So, 
+I am tired. (Participant 07)
+Based on these findings, in the light of Heideggerian 
+phenomenology, the phenomenon in question begins 
+to be unveiled in search of a more elaborate whole, 
+whose understanding and interpretation guide us 
+toward the meaning of this phenomenon, which is 
+described in the discussion.
+DISCUSSION
+From the phenomenological reduction, the com-
+prehensive and interpretative action of the phenom-
+enon begins, which remains concealed and, therefore, 
+demanding to be unveiled. Entering the hermeneutic 
+circle requires the researcher’s attentive gaze, stripped 
+of previous judgments and personal inferences. The 
+phenomenon conceals and (un)conceals in the provoc-
+ative action of allowing itself to be grasped.
+Category I: Being-with the other in cardiac 
+illness and finitude
+For Heidegger(9), the analysis of Being involves the 
+understanding of several constitutions, among them 
+Being-in-the-world, which consists of the appropriate 
+starting point for the analysis and interpretation of 
+the ways of being of Being-there. The philosopher 
+emphasizes that the expression Being-in-the-world 
+must be understood as a unity, which cannot be dis-
+solved. However, despite the non-dissolution, it has a 
+multiplicity of structural moments, since to understand 
+it, it is necessary to visualize three expressions: in-a-
+world; entity and being-in(9).
+In-a-world refers to the ontological structure of the 
+world and the idea of   worldliness, that is, it is not only 
+about geographic space, but an experiential world 
+marked by historicity(9). The being-in-the-world, in the 
+context of this study, is the Being-there who experiences 
+the phenomenon of being a person with heart failure 
+from a perspective of finitude. The world of the Being-
+there is represented here by this phenomenon and its 
+consequences, such as hospitalizations, limitations, 
+proximity to death. The Being-there lives and shares 
+these situations, shares this geographical, historical 
+and experiential world.
+It is perceived that, despite the cultural, religious and 
+personal differences of each Being-there, the world is 
+the same, since everyone experiences the same phe-
+nomenon, so that the statements show us how close the 
+Being-there establishes itself with other Beings-there, 
+this is due to the sharing of the world of symptoms 
+and limitations. 
+In category I, it was observed that the Being-there 
+is dissatisfaction due to not being able to carry out 
+their daily activities independently, as they need help 
+with tasks in which they were previously self-sufficient. 
+Studies that seek to understand the experience of the 
+Being with cardiac illness and who receives palliative 
+care demonstrate that the limitation of carrying out daily 
+activities significantly interferes with the quality of life of 
+these individuals, since they long to resume their daily 
+and work tasks, ensuring autonomy and self-care(14).
+The statements lead to reflection on the limitations 
+and interpersonal relationships of the Being-there, now 
+dependent on help for basic daily activities. This help 
+often comes from family members, but it can also come 
+from people whom the Being-there does not even 
+know, such as the healthcare team, companions of other 
+patients and others who share the same phenomenon.
+Heidegger(9) states that care is inherent to Being, is 
+part of its identity structure and can alternate between 
+modes; we can care through concern or occupation. 
+Care as concern is shown when the patient receives care 
+in a participatory, authentic way, when this manifests 
+itself in the form of being-with-the-other. However, 
+often, care as occupation becomes predominant, in 
+which case the patient becomes the object of actions, 
+treated as a tool or instrument, merely receiving med-
+ications and procedures without truly participating in 
+those actions.
+According to the participants’ statements, some 
+professionals do not talk to the patients, they just ‘de-
+liver the medicines’. The Being-there is cared for in the 
+mode of occupation, or rather, it is an instrument that 
+the professional handles, a receptacle for their actions. 
+It was also noted that the Being-there is distressed by 
+needing care from people they have just met, after 
+all, it is difficult to put oneself in the position of being 
+cared for.
+Communication permeates the care offered to the 
+patient as a strategy to promote comfort. When it is 
+not carried out effectively, feelings of fear and concern 
+are evidenced due to the lack of knowledge about the 
+current chronic condition and the type of assistance 
+provided, resulting in a certain level of rejection and 
+resistance(11). The study participants had no formal refer-
+ral to the palliative care team, and they did not receive 
+clear information about their prognosis. Kept within this 
+conspiracy of silence, the anguish becomes acute, and 
+the possibility of care and authentic living are limited.
+Although discussions about death and finitude 
+bring about feelings of fear, anguish and uncertainty, 
+finitude and the process of dying are topics that need 
+to be discussed between the patient, the family and 
+the healthcare team through effective communication 
+that ensures that all involved understand the phenom-
+enon, establishing strategies that promote comfort(15).
+The conspiracy of silence needs to be gradually 
+dissolved; the team needs to be available, needs to 
+communicate honestly and empathetically, to listen 
+actively and strengthen the bond with both the patient 
+and the family. Furthermore, referral to a palliative care 
+team at the beginning of the illness process can help 
+prevent the conspiracy of silence(16).
+The limitations imposed by illness make the Being-
+there face their fragility and the need to be cared for. 
+This generates distress, but it can also be essential for 
+the development of authentic relationships that sup-
+port care; it is in the need for care that the Being-there 
+perceives themselves as being-with-the-other.
+From this perspective, the Being-there recognizes 
+their own humanity and may have the opportunity 
+to understand their existence as life and death. The 
+Being-there needs to understand another way of being, 
+because in addition to being-in-the-world, the Being-
+there is not alone, they share this world.
+The other Beings-there are those people who share 
+the world and experiences with the Being-there and can 
+be represented by other patients, family members, com-
+panions and healthcare professionals. The relationship 
+between the Beings-there can allow for approximation 
+to the phenomenon; there are those who experience 
+these relationships in a close and cooperative manner, 
+and others in a more distant manner. Thus, one can-
+not go through the phenomenon alone, because it is 
+impossible to detach from the other Beings-there and 
+from the experience of one’s own finitude.
+The other Beings-there are related to the concept of 
+social support, which refers to interpersonal exchanges 
+that involve affection, affirmation and help. This relation-
+ship focuses on recognizing the other and legitimizing 
+their actions(11). Social and family support is crucial to 
+improving patients’ quality of life, helping them to face 
+their finitude with greater well-being, which helps 
+to dispel the feeling of loneliness, promoting a more 
+dignified and comfortable experience during palliative 
+care, accompanying the person’s finitude trajectory(17).
+The way of relating can follow different paths; some 
+allow themselves to establish relationships and others 
+remain impersonal. For Heidegger(9), the impersonal 
+belongs to others; it is the neutral, it is the way of be-
+ing that we all are in our daily lives. The Being-there, 
+existing in an impersonal and caring way, often in the 
+mode of occupation, is cast into idle talk or chatter. 
+What is said in chatter drags with it increasingly wider 
+circles, assuming an authoritarian character; things are 
+the way they are, because that is how they are spoken 
+about (impersonally).
+The Being-there, surrounded by chatter, is unaware 
+of their health condition and the implications of this 
+condition for their existence; the chatter covers up the 
+true meaning of the phenomenon of ‘being a person 
+with HF’ from the perspective of finitude and, con-
+sequently, continues impersonally passing through 
+existence in an inauthentic way. 
+It is noted that Being-there can remain in imperson-
+ality, ignoring its prognosis instead of confronting the 
+phenomenon presented. Being-there, whose life has 
+always been immersed in impersonality, whose dreams 
+and desires were never fulfilled, is the one who finds 
+the most difficulty in embracing the phenomenon into 
+which it was thrown, as it does not develop authentic 
+relationships; they distance both from the phenomenon 
+and from other Beings-there, living in the superficiality 
+of relationships. However, by distancing from imper-
+sonality, the Being-there can find possibilities in the 
+shared world to establish authentic relationships with 
+other patients, with companions, with their families 
+and, mainly, with themselves. 
+Para Heidegger(9) authenticity and inauthentici-
+ty are ways of being of the Being-there, we can shift 
+between the two modes and there is no value judg-
+ment regarding this. Authenticity consists of breaking 
+the barrier of the ontic and reaching the ontological, 
+leaving the impersonal and taking responsibility for its 
+existence; Those who remain in an inauthentic mode 
+follow an ontic, unreflective existence, surrounded by 
+concealed phenomena.
+The Being of the person living with heart failure, 
+in the perspective of finitude, can choose to live au-
+thentically or inauthentically, and may also alternate 
+between both. However, by experiencing the phe-
+nomenon authentically, the Being-there comes closer 
+to recognizing the being-toward-death, as described 
+in the following category.
+Category II: The construction of the being-
+toward-death
+The patients’ statements show their reactions and 
+desires not only for death, but for the time they have 
+still have to live. It was observed that the Being-there 
+is distressed by the possibility of suffering, sometimes 
+referring to the death of family members as quick, 
+painless and without suffering as something desirable 
+for themselves. The proximity of this end brings out 
+spirituality. The discourses mention death, God, faith, 
+reflections on flaws and virtues. Therefore, attention is 
+drawn to the way in which these spiritual issues can 
+be addressed with these people. 
+The Being-there’s narrative is permeated by mem-
+ories, by recollections of significant events, whether 
+happy or sad. The Being-there seeks, in his memories, 
+elements that help him experience the approaching 
+phenomenon, because of this, death cannot be taken 
+away from the other; each Being must, in their own 
+time, assume their own death(9).
+The personal and non-transferable nature of ending, 
+as dying, awakens fear in the Being-there, as noted in 
+the statements. There is an obscure ontological link 
+between the phenomena of fear and anguish, but 
+both are, most of the time, inseparable, being confused. 
+Both phenomena are a withdrawal, but not every with-
+drawal is an escape; one withdraws when something 
+threatening is identified, that is, fear is triggered and 
+that which one is afraid of is always an intramundane 
+entity. Anguish is always an escape, an escape from 
+oneself; what causes anguish is not an intramundane 
+entity, but something undetermined, which in this 
+case is death(9). 
+The Being-there is frightened by the phenomenon 
+of being a person with heart failure in the perspective 
+of finitude from the beginning of the diagnosis, as 
+heart disease is associated with severity, suffering and 
+death. They speak about how frightening it is to know 
+about the disease and how much they still hope to live 
+and achieve things, however, this desire is faced with 
+imminent finitude, which, although not mentioned, 
+can be felt by the Being-there who experiences their 
+functional decline every day.
+The statements refer to God and faith as positive 
+aspects, as they believe that only God knows the mo-
+ment their existence will cease and driven by faith, 
+they trust that this moment should be accepted and 
+respected. The Being-there removes from themselves 
+the responsibility of thinking about their own death, 
+leaves the decision to God, and believes that God or a 
+higher power, with all its wisdom, will decide for them. 
+There are also reports of desires for the time they 
+believe they have left, and statements about working 
+less and seeking new experiences emerge. When armed 
+with memories they are proud of and have experiences 
+that were built based on their desires, the Being-there 
+refers to finitude in a less anguished way. In other words, 
+those who have had an authentic life show themselves 
+open to the possibility of the final outcome. 
+Following this thread, the Being-there declines and 
+finds themselves thrown into a condition they did 
+not choose, at least not consciously. Decay is nothing 
+more than an existential mode of movement. Decay is 
+a movement of existence itself. The Being-there, while 
+decadent, has already fallen from itself as a factual be-
+ing-in-the-world, the same world to which it belongs 
+and had already been thrown(9).
+The decay established in the experience of the 
+Being-there with HF in the perspective of finitude, 
+brings the possibility of constructing the being-for-
+death, as this construction occurs in authentic living. 
+When faced with the imminence of death, that is, the 
+annihilation of its being, not only physical, but also 
+historical and temporal, the Being-there finds itself 
+faced with its (im)possibilities, the main one being 
+the impossibility of accessing its Being in totality. With 
+death, the Being-there reaches its biological end, but 
+also its ontological-existential end.
+In this scenario, the nurse emerges as a central figure 
+in the construction of authentic care, with a fundamen-
+tal role in the mediation between the Being with heart 
+failure in the perspective of finitude and the knowledge 
+necessary to fully experience this phenomenon. 
+When a nurse tries to understand the world of an 
+individual they care for and their family members, as 
+well as their subjectivities, and effectively succeeds, 
+the path is paved for the establishment of empathy 
+between the professional, the patient and family. This 
+enhances a relationship of mutual understanding, lead-
+ing to a more effective detection of existing needs, 
+a correct definition of priorities and interventions to 
+be implemented(18).
+The  nurse’s  role  must  transcend  physical  care,  
+encompassing  the  patient’s  existential  dimension  
+by providing information for the possibility of clear 
+and accessible communication, the construction of 
+spaces in which care is established in an authentic way. 
+Furthermore, the nurse faces the challenge of breaking 
+the impersonal and establishing a relationship that 
+respects the singularity of the Being-there, fostering 
+an authentic living that allows the patient to construct 
+the being-toward-death consciously and with dignity.
+The study contributes by clarifying the experience of 
+these patients, which in turn can serve as a foundation 
+for  interventions  aimed  at  improving  care  for  this  
+population, whose needs are often neglected during 
+the finitude process. One limitation of the study is 
+the non-inclusion of patients in intensive care and 
+emergency settings, which may significantly interfere 
+with the experience described, since these settings have 
+different dynamics from the hospital ward, requiring 
+further research to include participants from these 
+spaces.
+FINAL CONSIDERATIONS
+After unveiling the phenomenon, it is perceived 
+that the Being with heart failure in the perspective of 
+finitude goes through a process of construction of the 
+being-toward-death, which is dynamic and continuous, 
+conditioned by existence itself: I live, therefore I will die.
+The Being-there is faced with numerous possibilities 
+to experience finitude, being able to relate authentically 
+with  other  Beings-there  and  with  their  process  of  
+finitude,  thus  establishing  a  guiding  thread  that  
+helps them understand and prepare for the outcome. 
+However, inauthentic relationships and the established 
+impersonal mode lead the Being toward a becoming 
+that remains concealed by the other that surrounds 
+them, in such a way that misinformation consolidates 
+a distancing from the inevitable.
+The  phenomenon  studied  is  marked  by  this  
+lack of information about the severity of the illness 
+and the proximity of death, which hinders patients’ 
+communication about their essential needs and excludes 
+the possibility of conscious choices, consolidating an 
+inauthentic existence at the end of life.
