@@ -27,50 +27,59 @@
 ## 📜 Descrição
 
 ### 1. Visão Geral do Conjunto de Dados
-O dataset utilizado contém 1.024 registros e 14 variáveis clínicas relacionadas a fatores de risco, exames e indicadores de doença cardíaca. As variáveis incluem atributos demográficos (idade e sexo), medidas fisiológicas (pressão arterial em repouso, colesterol sérico, frequência cardíaca máxima), além de variáveis categóricas associadas a exames e sintomas clínicos.
 
-A análise inicial foi realizada com o objetivo de verificar a integridade, consistência e adequação dos dados para uso futuro em modelos de Inteligência Artificial aplicados à saúde cardiovascular.
+O trabalho consiste na coleta de dados quantitativos, textuais e de imagem para futura construção de uma plataforma de Inteligência artificial capaz de monitorar pacientes cardíacos, auxiliando no diagnóstico, tratamento e acompanhamento desses. A aplicação terá por objetivo simular um ecossistema de inteligência médica aplicado à cardiologia moderna.
+
+Para tanto, foram coletados a partir de fontes públicas como Kaggle e Scielo. Isso implica que os dados não sofrem com questões críticas de governança, dados que foram obtidos de forma legal e previamente tratados para manter o sigilo de informações pessoais necessário. Ademais, a utilização para fins exclusivamente didáticos também está em conformidade com a finalidade de uso, pois todo projeto aqui desenvolvido não implica utilização comercial que possa desviar os termos de consentimento de compartilhamento desses dados por suas origens.
+
+### 2. Dataset de dados quantitativos
+
+O dataset de dados quantitativos foi coletado na plataforma Kaggle, comumente utilizada na comunidade de Data Science para fins educacionais.   
+
+O dataset utilizado foi [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), datado de 1988 e obtido por meio da coleta de dados de saúde originários dos Estados Unidos da América e da União Europeia. Originalmente, ele possui 76 atributos, mas o conjunto publicado que aqui será utilizado possui 14 atributos. 
+
+Ele contém 1.024 registros, com as 14 variáveis clínicas relacionadas a fatores de risco, exames e indicadores de doença cardíaca. As variáveis incluem atributos demográficos (idade e sexo), medidas fisiológicas (pressão arterial em repouso, colesterol sérico, frequência cardíaca máxima), além de variáveis categóricas associadas a exames e sintomas clínicos. A variável-alvo descreve a presença ou ausência de doença cardíaca no paciente no momento das medições dos demais atributos. Não constam informações sobre o desfecho do tratamento (óbito ou recuperação). 
+
+#### 2.1 Verificação de Qualidade e Integridade dos Dados
+
+Foi realizada uma análise inicial com o objetivo de verificar a integridade, consistência e adequação dos dados para uso futuro em modelos de Inteligência Artificial aplicados à saúde cardiovascular.
 
 #### Observação: o script utilizado para a análise do dataset está disponível em: 
 [Script de análise exploratória](./src/analisys.py)
 
-### 2. Verificação de Qualidade e Integridade dos Dados
+
 Foram conduzidas as seguintes verificações:
 
-Identificação de valores nulos (NaN);
-
-Busca por possíveis valores ausentes mascarados (ex.: "?");
-
-Avaliação de valores mínimos para detectar possíveis inconsistências clínicas (como pressão arterial ou colesterol iguais a zero).
+- Identificação de valores nulos (NaN);
+- Busca por possíveis valores ausentes mascarados (ex.: "?");
+- Avaliação de valores mínimos para detectar possíveis inconsistências clínicas (como pressão arterial ou colesterol iguais a zero).
 
 Os resultados indicaram:
 
-Ausência de valores nulos explícitos;
-
-Ausência de valores inválidos representados por caracteres especiais;
-
-Valores mínimos clinicamente plausíveis nas variáveis contínuas (idade mínima de 18 anos, colesterol mínimo de 100 mg/dL e pressão arterial mínima dentro de limites fisiológicos possíveis).
+- Ausência de valores nulos explícitos;
+- Ausência de valores inválidos representados por caracteres especiais;
+- Valores mínimos clinicamente plausíveis nas variáveis contínuas (idade mínima de 18 anos, colesterol mínimo de 100 mg/dL e pressão arterial mínima dentro de limites fisiológicos possíveis).
 
 Dessa forma, conclui-se que o dataset apresenta boa qualidade estrutural para uso analítico, não sendo necessária, nesta fase, imputação ou tratamento adicional de dados ausentes.
 
-### 3. Definição e Análise das Variáveis Alvo
-O conjunto de dados apresenta duas variáveis relacionadas ao diagnóstico:
+#### 2.2. Definição e Análise das Variáveis Alvo
 
-target_binary: indica presença (1) ou ausência (0) de doença cardíaca;
+Para nossa análise do conjunto de dados elegemos duas variáveis relacionadas ao diagnóstico:
 
-num: representa o grau de severidade da doença, variando de 0 a 4.
+- target_binary: indica presença (1) ou ausência (0) de doença cardíaca;
+- num: representa o grau de severidade da doença, variando de 0 a 4.
 
 Observou-se que:
 
-554 registros (54,1%) correspondem a pacientes sem doença cardíaca;
-
-470 registros (45,9%) correspondem a pacientes com diagnóstico positivo.
+- 554 registros (54,1%) correspondem a pacientes sem doença cardíaca;
+- 470 registros (45,9%) correspondem a pacientes com diagnóstico positivo.
 
 Essa distribuição demonstra um bom balanceamento para classificação binária, reduzindo o risco de viés estatístico em modelos supervisionados que venham a ser treinados posteriormente.
 
 Entretanto, ao analisar a variável de severidade (num), verificou-se desbalanceamento entre as classes de gravidade. A classe 2 concentra a maior parte dos casos positivos, enquanto as classes 3 e 4 possuem representatividade significativamente menor. Esse comportamento pode influenciar o desempenho de modelos multiclasses, favorecendo a predição da classe majoritária.
 
-### 4. Análise Visual
+#### 2.3. Análise Visual
+
 Foram gerados gráficos de distribuição para:
 
 ### Figura 1 – Distribuição da Doença Cardíaca (Binária)
@@ -97,26 +106,33 @@ A maior concentração de pacientes encontra-se em faixas etárias adultas e ido
 
 A visualização reforça o equilíbrio da variável binária e evidencia o desbalanceamento das subclasses de gravidade. A distribuição de idade demonstra predominância de pacientes em faixas etárias adultas e idosas, perfil esperado em estudos cardiovasculares.
 
-### 5. Considerações para Aplicação em IA
+#### 2.4 Considerações para Aplicação em IA
 A análise exploratória confirma que o dataset é adequado para aplicações de:
 
-Classificação binária (detecção de doença cardíaca);
-
-Classificação multiclasses (predição de severidade);
-
-Estudos comparativos de fatores de risco.
+- Classificação binária (detecção de doença cardíaca);
+- Classificação multiclasses (predição de severidade);
+- Estudos comparativos de fatores de risco.
 
 Contudo, para modelos multiclasses, poderá ser necessária a aplicação de técnicas de balanceamento (como oversampling, undersampling ou ponderação de classes) a fim de mitigar possíveis vieses decorrentes da distribuição desigual das classes de gravidade.
 
-### 6. Dados de Textos e Imagens
+Logo, acreditamos que a partir deste dataset será possível trabalhar predições de diagnósticos cardíacos bem como os seus graus de severidade associados. A partir dele pretendemos treinar modelos de IA capazes de captar informações correspondentes de outras origens de dados, como dispositivos IOT e devolver as predições aos usuários competentes a tomada de decisão sobre o paciente.
 
-Os textos utilizado para futura análise NLP (Natural Linguage Processece), são artigos retirados no site [scielo.org](https://www.scielo.org/pt-br/), onde foco do artigo é sobre **"A pessoa com insuficiência cardíaca na
+### 3. Dados de Textos 
+
+Para coleta dos dados de texto utilizamos a plataforma de artigos científicos Scielo. Trata-se de uma organização pública a que se pode ter acesso a publicações de diversas revistas científicas, nos termos da plataforma. 
+
+
+
+Os textos utilizados para futura análise NLP (Natural Language Processing), são artigos retirados no site [scielo.org](https://www.scielo.org/pt-br/), onde foco do artigo é sobre **"A pessoa com insuficiência cardíaca na
 perspectiva da finitude: uma compreensão
 à luz de Martin Heidegger"** e o artigo **"Síndrome da Função Cardíaca Deficiente: 
 um novo diagnóstico de enfermagem para pessoas com insuficiência cardíaca"**.
 Referente a base de dados de imagem, foi pego do [Kaggle](https://www.kaggle.com), bsucando dataset de 100 imagens de exames de ECG (Eletrocardiograma), tendo 25 variações do exame, `post mi history ecg`,`normal ecg`,`mycardial infraction ecg` e `abnormal heartbeat ecg`.
 
-### 7. Processo de Limpeza e Escolha Imagens
+### 4. Dados de Imagens
+
+#### 4.1 Dados de Imagens
+Processo de Limpeza e Escolha Imagens
 Objetivo do arquivo [text_prerocessing.py](src/text_preprocessing.py) é realizar a limpeza e padronização dos textos brutos armazenados em `data/raw/texts/`, preparando-os para uso futuro em tarefas de Processamento de Linguagem Natural (NLP). Ele lê cada arquivo `.txt`, aplica um pipeline de pré-processamento que inclui normalização para letras minúsculas, remoção de caracteres indesejados, eliminação de stopwords (palavras comuns sem valor semântico relevante), tokenização e filtragem de termos muito curtos ou numéricos, e então salva a versão limpa em `data/processed/texts/`. Dessa forma, o script organiza e transforma os dados textuais em um formato mais consistente e adequado para análises posteriores, como extração de sintomas, classificação de tópicos ou modelagem preditiva, mesmo que nesta etapa ainda não haja treinamento de modelos.
 
 
