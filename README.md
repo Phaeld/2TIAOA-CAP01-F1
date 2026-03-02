@@ -40,13 +40,14 @@ O dataset utilizado foi [Heart Disease Dataset](https://www.kaggle.com/datasets/
 
 Ele contém 1.024 registros, com as 14 variáveis clínicas relacionadas a fatores de risco, exames e indicadores de doença cardíaca. As variáveis incluem atributos demográficos (idade e sexo), medidas fisiológicas (pressão arterial em repouso, colesterol sérico, frequência cardíaca máxima), além de variáveis categóricas associadas a exames e sintomas clínicos. A variável-alvo descreve a presença ou ausência de doença cardíaca no paciente no momento das medições dos demais atributos. Não constam informações sobre o desfecho do tratamento (óbito ou recuperação). 
 
+Também foi verificada a representatividade da amostra em termos de sexo: o dataset conta com proporção aproximada de 30% de mulheres para 70% de homens. Dado que doenças cardíacas afetam majoritariamente os homens, entendemos que o conjunto de dados é representativo da população estudada.
+
 #### 2.1 Verificação de Qualidade e Integridade dos Dados
 
 Foi realizada uma análise inicial com o objetivo de verificar a integridade, consistência e adequação dos dados para uso futuro em modelos de Inteligência Artificial aplicados à saúde cardiovascular.
 
 #### Observação: o script utilizado para a análise do dataset está disponível em: 
 [Script de análise exploratória](./src/analisys.py)
-
 
 Foram conduzidas as seguintes verificações:
 
@@ -119,26 +120,36 @@ Logo, acreditamos que a partir deste dataset será possível trabalhar prediçõ
 
 ### 3. Dados de Textos 
 
-Para coleta dos dados de texto utilizamos a plataforma de artigos científicos Scielo. Trata-se de uma organização pública a que se pode ter acesso a publicações de diversas revistas científicas, nos termos da plataforma. 
+Para coleta dos dados de texto utilizamos a plataforma de artigos científicos [Scielo.org](https://www.scielo.org/pt-br/). Trata-se de uma organização pública à qual se pode ter acesso a publicações de diversas revistas científicas, nos termos da plataforma. 
+
+O objetivo dos textos coletados é formar uma base inicial que permita a construção de chatbots, que auxiliem no processo de condução, diagnose e suporte psicológico, fisíco, administrativo e social do pacientes e demais públicos de interesse envolvidos no tratamento. Os textos permitirão futuras análises NLP (Natural Language Processing) e servirão de base de conhecimento para os chatbots.
+
+Os são artigos selecionados foram:
+
+- "A pessoa com insuficiência cardíaca na perspectiva da finitude: uma compreensão à luz de Martin Heidegger": selecionado pelo potencial de corpus analítico para análise de sentimentos utilizando NLP. O artigo relata sentimentos de pacientes com quadro de insuficiência cardíaca crônica e avança. No âmbito do chatbot pode suportar médicos a oferecer melhor suporte psicológico aos pacientes terminais.
+- "Síndrome da Função Cardíaca Deficiente: um novo diagnóstico de enfermagem para pessoas com insuficiência cardíaca": selecionado por descrever quadros de insuficiência cardíaca de acordo com parâmetros de diagnóstico prévio realizado na enfermaria. Selecionado pelo potencial que o chatbot treinado poderá oferecer à enfermagem.
+- "O custo do tratamento médico na insuficiência cardíaca avançada: uma perspectiva latino-americana": selecionado por descrever o entendimento dos custos de tratamento médico no quadro de insuficiência cardíaca, podendo oferecer mais suporte aos gestores hospitalares sobre a melhor condução dos casos do ponto de vista administrativo. 
+- Conhecimento dos fatores de risco modificáveis para doença cardiovascular entre mulheres e seus fatores associados: um estudo de base populacional: selecionado para controlar o viés de amostral e algorítmico da população masculina na base de conhecimento, dado que é sabido que os sintomas e diagnóstico de doenças cardiovasculares são distintos entre homens e mulheres. Desta forma, refletimos e antecipamos problemas de "preconceito algorítmico" subjacentes em nosso conjunto de dados.
 
 
+#### 3.1 Processo de Limpeza dos Dados de Texto
 
-Os textos utilizados para futura análise NLP (Natural Language Processing), são artigos retirados no site [scielo.org](https://www.scielo.org/pt-br/), onde foco do artigo é sobre **"A pessoa com insuficiência cardíaca na
-perspectiva da finitude: uma compreensão
-à luz de Martin Heidegger"** e o artigo **"Síndrome da Função Cardíaca Deficiente: 
-um novo diagnóstico de enfermagem para pessoas com insuficiência cardíaca"**.
-Referente a base de dados de imagem, foi pego do [Kaggle](https://www.kaggle.com), bsucando dataset de 100 imagens de exames de ECG (Eletrocardiograma), tendo 25 variações do exame, `post mi history ecg`,`normal ecg`,`mycardial infraction ecg` e `abnormal heartbeat ecg`.
+O objetivo do arquivo [text_prerocessing.py](src/text_preprocessing.py) é realizar a limpeza e padronização dos textos brutos armazenados em `data/raw/texts/`, preparando-os para uso futuro em tarefas de Processamento de Linguagem Natural (NLP). Ele lê cada arquivo `.txt`, aplica um pipeline de pré-processamento que inclui normalização para letras minúsculas, remoção de caracteres indesejados, eliminação de stopwords (palavras comuns sem valor semântico relevante), tokenização e filtragem de termos muito curtos ou numéricos, e então salva a versão limpa em `data/processed/texts/`. Dessa forma, o script organiza e transforma os dados textuais em um formato mais consistente e adequado para análises posteriores, como extração de sintomas, classificação de tópicos ou modelagem preditiva, mesmo que nesta etapa ainda não haja treinamento de modelos.
 
 ### 4. Dados de Imagens
 
-#### 4.1 Dados de Imagens
-Processo de Limpeza e Escolha Imagens
-Objetivo do arquivo [text_prerocessing.py](src/text_preprocessing.py) é realizar a limpeza e padronização dos textos brutos armazenados em `data/raw/texts/`, preparando-os para uso futuro em tarefas de Processamento de Linguagem Natural (NLP). Ele lê cada arquivo `.txt`, aplica um pipeline de pré-processamento que inclui normalização para letras minúsculas, remoção de caracteres indesejados, eliminação de stopwords (palavras comuns sem valor semântico relevante), tokenização e filtragem de termos muito curtos ou numéricos, e então salva a versão limpa em `data/processed/texts/`. Dessa forma, o script organiza e transforma os dados textuais em um formato mais consistente e adequado para análises posteriores, como extração de sintomas, classificação de tópicos ou modelagem preditiva, mesmo que nesta etapa ainda não haja treinamento de modelos.
+A nossa base de dados de imagens também foi obtida através do Kaggle. O dataset chamado [ECG Images Dataset of Cardiac Patients]([https://www.kaggle.com](https://www.kaggle.com/datasets/evilspirit05/ecg-analysis)), é composto por 100 imagens de exames de ECG (Eletrocardiograma), tendo 25 variações do exame e 4 categorias principais (`post mi history ecg`,`normal ecg`,`myocardial infarction ecg` e `abnormal heartbeat ecg`) os dados foram coletado pelo Instituto de Cardiologia Ch. Pervaiz Elahi, em Multan, Paquistão. 
 
+O dataset foi construído com o objetivo de treinar modelos de detecção de doenças cardíacas, interpretação de sinais e métodos de aprendizado profundo baseados em imagens. Segundo a documentação, os casos foram classificados da seguinte maneira:
 
-> **Referente as imagens, estão disponível no Google Drive pelo link: [https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing](https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing)**
+   - Os casos de batimentos cardíacos anormais contêm imagens de ECG que exibem padrões de ritmo irregulares.
+   - Os casos com histórico de infarto do miocárdio incluem pacientes previamente diagnosticados com infarto do miocárdio, mas que não estão apresentando um episódio agudo no momento.
+   - Os casos normais representam imagens de ECG de indivíduos sem anormalidades cardíacas relatadas."
 
-As imagens escolhidas tem seguintes classes clínicas:<br>
+#### 4.1 Processo seleção das Imagens
+
+As imagens escolhidas têm as seguintes classes clínicas:<br>
+
 - `PMI` --> `post mi history ecg`;
 - `N` --> `normal ecg`;
 - `MI` --> `mycardial infraction ecg`;
@@ -146,21 +157,27 @@ As imagens escolhidas tem seguintes classes clínicas:<br>
 
 Sendo exames de pacientes do sexo **masculino M** e **Femenino F**.
 
-#### 7.1 Regras Escolha de Imagens para Minimizar Viés
+> **As imagens estão disponíveis no Google Drive pelo link: [https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing](https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing)**
+
+
+#### 4.2 Regras Escolha de Imagens para Minimizar Viés
 
 A regra utilizada para escolha da imagem foi:
+
 - 25 imagens de cada classe clínica, totalizando 100 imagens no total;
-- Sendo separado aproximadamente 11a 13 imagens de cada sexo, Masculino e Femenino.
+- Sendo separadas aproximadamente 11 a 13 imagens de cada sexo, masculino e feminino.
 
 A escolha de organizar as imagens de ECG mantendo informações estruturadas no nome do arquivo (como classe clínica e sexo, por exemplo `HB01-M` e `HB02-F`) é importante porque preserva variáveis relevantes para futuras análises e evita a perda de contexto clínico. Ao manter diversidade nas classes (normal, arritmia, infarto etc.) e considerar características demográficas como sexo, o conjunto de dados se torna mais representativo da população real, reduzindo o risco de vieses no desenvolvimento de sistemas de IA. A ausência de diversidade pode levar modelos a apresentarem desempenho desigual entre grupos, gerando discriminação algorítmica e decisões clínicas menos precisas para determinados perfis. Portanto, uma seleção equilibrada e documentada das imagens contribui para maior robustez, transparência e responsabilidade no uso de Inteligência Artificial aplicada à saúde.
 
 ### Figura 4 - Exemplo de Dado Classe Clínica Normal
+
 ![Image ECG](assets/images/Normal(3).jpg)
 
-### 8. Considerações Sobre Dados Texto e Imagens
+### 5. Considerações Sobre Dados 
 
-A seleção e organização cuidadosa dos dados textuais e das imagens são fundamentais para reduzir vieses e promover maior responsabilidade no desenvolvimento de sistemas de IA aplicados à saúde. No caso dos textos, utilizar fontes confiáveis e incluir diferentes perspectivas (como diretrizes clínicas, estudos científicos e documentos de saúde pública) contribui para evitar uma visão limitada ou enviesada sobre doenças cardíacas, garantindo que os modelos futuros aprendam padrões mais amplos e contextualizados. Já nas imagens de ECG, manter diversidade de classes clínicas e considerar variáveis relevantes, como sexo biológico, ajuda a tornar o conjunto de dados mais representativo da população real. Conjuntos desequilibrados ou homogêneos podem levar a modelos que performam melhor para um grupo específico e pior para outros, gerando discriminação algorítmica. Assim, a organização estruturada e a diversidade intencional dos dados fortalecem a qualidade, a equidade e a confiabilidade de futuras aplicações de Inteligência Artificial na área da saúde.
+A seleção e organização cuidadosa dos dados textuais e das imagens são fundamentais para reduzir vieses e promover maior responsabilidade no desenvolvimento de sistemas de IA aplicados à saúde. 
 
+No caso dos textos, utilizar fontes confiáveis e incluir diferentes perspectivas (como diretrizes clínicas, estudos científicos e documentos de saúde pública) contribui para evitar uma visão limitada ou enviesada sobre doenças cardíacas, garantindo que os modelos futuros aprendam padrões mais amplos e contextualizados. Já nas imagens de ECG, manter diversidade de classes clínicas e considerar variáveis relevantes, como sexo biológico, ajuda a tornar o conjunto de dados mais representativo da população real. Conjuntos desequilibrados ou homogêneos podem levar a modelos que performam melhor para um grupo específico e pior para outros, gerando discriminação algorítmica. Assim, a organização estruturada e a diversidade intencional dos dados fortalecem a qualidade, a equidade e a confiabilidade de futuras aplicações de Inteligência Artificial na área da saúde.
 
 
 ## 📁 Estrutura de pastas
