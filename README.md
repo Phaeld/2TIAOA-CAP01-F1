@@ -36,7 +36,7 @@ Para tanto, foram coletados a partir de fontes públicas como Kaggle e Scielo. I
 
 O dataset de dados quantitativos foi coletado na plataforma Kaggle, comumente utilizada na comunidade de Data Science para fins educacionais.   
 
-O dataset utilizado foi [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), datado de 1988 e obtido por meio da coleta de dados de saúde originários dos Estados Unidos da América e da União Europeia. Originalmente, ele possui 76 atributos, mas o conjunto publicado que aqui será utilizado possui 14 atributos. 
+O dataset utilizado foi [Heart Disease Dataset](https://www.kaggle.com/datasets/sintariosatya/heart-disease-dataset), datado de 1988 e obtido por meio da coleta de dados de saúde originários dos Estados Unidos da América e da União Europeia. Originalmente, ele possui 76 atributos, mas o conjunto publicado que aqui será utilizado possui 14 atributos. 
 
 Ele contém 1.024 registros, com as 14 variáveis clínicas relacionadas a fatores de risco, exames e indicadores de doença cardíaca. As variáveis incluem atributos demográficos (idade e sexo), medidas fisiológicas (pressão arterial em repouso, colesterol sérico, frequência cardíaca máxima), além de variáveis categóricas associadas a exames e sintomas clínicos. A variável-alvo descreve a presença ou ausência de doença cardíaca no paciente no momento das medições dos demais atributos. Não constam informações sobre o desfecho do tratamento (óbito ou recuperação). 
 
