@@ -118,7 +118,7 @@ Contudo, para modelos multiclasses, poderá ser necessária a aplicação de té
 
 Logo, acreditamos que a partir deste dataset será possível trabalhar predições de diagnósticos cardíacos bem como os seus graus de severidade associados. A partir dele pretendemos treinar modelos de IA capazes de captar informações correspondentes de outras origens de dados, como dispositivos IOT e devolver as predições aos usuários competentes a tomada de decisão sobre o paciente.
 
-### 3. Dados de Textos 
+### 3. Dados de Textos e Justificativa 
 
 Para coleta dos dados de texto utilizamos a plataforma de artigos científicos [Scielo.org](https://www.scielo.org/pt-br/). Trata-se de uma organização pública à qual se pode ter acesso a publicações de diversas revistas científicas, nos termos da plataforma. 
 
@@ -160,14 +160,32 @@ Sendo exames de pacientes do sexo **masculino M** e **Femenino F**.
 > **As imagens estão disponíveis no Google Drive pelo link: [https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing](https://drive.google.com/drive/folders/1Xv7WWRR0PPGk-MJ5Ww2kr072cdV-DQix?usp=sharing)**
 
 
-#### 4.2 Regras Escolha de Imagens para Minimizar Viés
+#### 4.2 Planejamento e pré-análise do corpus de imagens
 
-A regra utilizada para escolha da imagem foi:
+A regra utilizada para a escolha das imagens foi:
 
-- 25 imagens de cada classe clínica, totalizando 100 imagens no total;
-- Sendo separadas aproximadamente 11 a 13 imagens de cada sexo, masculino e feminino.
+25 imagens de cada classe clínica, totalizando 100 imagens no total;
 
-A escolha de organizar as imagens de ECG mantendo informações estruturadas no nome do arquivo (como classe clínica e sexo, por exemplo `HB01-M` e `HB02-F`) é importante porque preserva variáveis relevantes para futuras análises e evita a perda de contexto clínico. Ao manter diversidade nas classes (normal, arritmia, infarto etc.) e considerar características demográficas como sexo, o conjunto de dados se torna mais representativo da população real, reduzindo o risco de vieses no desenvolvimento de sistemas de IA. A ausência de diversidade pode levar modelos a apresentarem desempenho desigual entre grupos, gerando discriminação algorítmica e decisões clínicas menos precisas para determinados perfis. Portanto, uma seleção equilibrada e documentada das imagens contribui para maior robustez, transparência e responsabilidade no uso de Inteligência Artificial aplicada à saúde.
+Separação balanceada de aproximadamente 11 a 13 imagens por sexo (masculino e feminino) em cada classe.
+
+A escolha de organizar as imagens de ECG mantendo informações estruturadas na nomenclatura dos arquivos (como classe clínica e sexo, por exemplo, HB01-M e HB02-F) é fundamental porque preserva variáveis relevantes para futuras análises e evita a perda de contexto clínico. Ao garantir diversidade nas classes (normal, arritmia, infarto, etc.) e considerar características demográficas, o conjunto de dados se torna mais representativo da população real. Isso reduz o risco de vieses no desenvolvimento do sistema, visto que a ausência de diversidade pode levar os modelos a apresentarem desempenho desigual entre grupos, gerando discriminação algorítmica. Portanto, essa seleção equilibrada e documentada contribui para uma maior robustez, transparência e responsabilidade no uso da IA aplicada à saúde.
+
+Posteriormente, aplicaremos técnicas de pré-processamento para isolar os sinais elétricos (as curvas do traçado) do plano de fundo, transformando a imagem original em uma matriz binária livre de ruídos (como o quadriculado do papel milimetrado).
+
+Esses dados tratados serão utilizados para analisar a morfologia das curvas do eletrocardiograma. O mapeamento da geometria do sinal permitirá a identificação e medição de indicadores médicos essenciais para o diagnóstico (Onda P, Complexo QRS e Onda T), além da extração de outras métricas espaciais, como amplitude e intervalos sistemáticos.
+
+Dessa forma, as imagens serão tratadas como objetos espaciais. Para isso, utilizaremos a biblioteca Python OpenCV (cv2), aplicando técnicas clássicas de detecção de bordas e contornos baseadas em gradientes de intensidade, como os filtros de Canny ou Sobel.
+
+Nosso objetivo final na trilha de Visão Computacional será processar esses dados utilizando Redes Neurais Convolucionais (CNNs). O emprego das CNNs visa treinar o modelo para aprender a hierarquia de características visuais de maneira autônoma, tornando-o capaz de reconhecer padrões complexos — como a elevação do segmento ST ou inversões da onda T — e correlacioná-los às classes de diagnóstico clínico já definidas no dataset (myocardial infarction, abnormal heartbeat, entre outras).
+
+#### 4.3 Justificativa e Impacto Clínico
+
+Entendemos que o modelo de CNN a ser desenvolvido poderá agregar valor ao ecossistema hospitalar de pelo menos três maneiras:
+
+- Suporte ao Diagnóstico Individual: O algoritmo pode ser treinado para realizar uma primeira leitura do eletrocardiograma, indicando possíveis anomalias para a equipe de enfermagem e médicos. Isso funciona como um sistema de suporte à decisão, padronizando protocolos de triagem e priorizando o encaminhamento de casos graves, mitigando erros humanos decorrentes de fadiga.
+- Integração com Wearables e IoT: O modelo poderá ser acoplado a dispositivos de monitoramento contínuo (IoT), permitindo a análise do traçado em tempo real. Isso viabiliza a notificação imediata do paciente e da equipe médica à distância, atuando de forma preditiva ao reconhecer padrões morfológicos que antecedem eventos cardíacos críticos.
+- Saúde Populacional e Pesquisa: De forma agregada, a ferramenta permitirá que médicos e pesquisadores identifiquem correlações entre padrões eletrocardiográficos específicos e seus desfechos clínicos ao longo do tempo, auxiliando na formulação de tratamentos de longo prazo e na gestão de saúde populacional.
+
 
 ### Figura 4 - Exemplo de Dado Classe Clínica Normal
 
