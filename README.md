@@ -131,10 +131,31 @@ Os são artigos selecionados foram:
 - "O custo do tratamento médico na insuficiência cardíaca avançada: uma perspectiva latino-americana": selecionado por descrever o entendimento dos custos de tratamento médico no quadro de insuficiência cardíaca, podendo oferecer mais suporte aos gestores hospitalares sobre a melhor condução dos casos do ponto de vista administrativo. 
 - "Conhecimento dos fatores de risco modificáveis para doença cardiovascular entre mulheres e seus fatores associados": um estudo de base populacional: selecionado para controlar o viés de amostral e algorítmico da população masculina na base de conhecimento, dado que é sabido que os sintomas e diagnóstico de doenças cardiovasculares são distintos entre homens e mulheres. Desta forma, refletimos e antecipamos problemas de "preconceito algorítmico" subjacentes em nosso conjunto de dados.
 
+#### 3.1 Processo de Limpeza e Vetorização do Corpus Textual
 
-#### 3.1 Processo de Limpeza dos Dados de Texto
+O objetivo do arquivo text_preprocessing.py é realizar a higienização e padronização dos textos brutos armazenados em data/raw/texts/. O pipeline de pré-processamento inclui a normalização para letras minúsculas, remoção de caracteres especiais, eliminação de stopwords, tokenização e filtragem de termos muito curtos. Os dados limpos são salvos em data/processed/texts/.
 
-O objetivo do arquivo [text_prerocessing.py](src/text_preprocessing.py) é realizar a limpeza e padronização dos textos brutos armazenados em `data/raw/texts/`, preparando-os para uso futuro em tarefas de Processamento de Linguagem Natural (NLP). Ele lê cada arquivo `.txt`, aplica um pipeline de pré-processamento que inclui normalização para letras minúsculas, remoção de caracteres indesejados, eliminação de stopwords (palavras comuns sem valor semântico relevante), tokenização e filtragem de termos muito curtos ou numéricos, e então salva a versão limpa em `data/processed/texts/`. Dessa forma, o script organiza e transforma os dados textuais em um formato mais consistente e adequado para análises posteriores, como extração de sintomas, classificação de tópicos ou modelagem preditiva, mesmo que nesta etapa ainda não haja treinamento de modelos.
+Contudo, a limpeza é apenas a etapa inicial. Para que os modelos de Inteligência Artificial possam compreender e analisar esses artigos, transformaremos os textos processados em representações matemáticas através de técnicas de Vetorização e Word Embeddings (como TF-IDF, Word2Vec ou modelos pré-treinados como BERT).
+
+Essa transformação permite que a máquina calcule a similaridade semântica entre as palavras. Além disso, planejamos utilizar técnicas de reconhecimentoe  classificação informações cruciais dentro do texto livre, como a extração automática de sintomas (ex: dispneia, fadiga), medicamentos e fatores de risco.
+
+#### 3.2 Processo de Limpeza e Vetorização do Corpus Textual
+
+A integração de Processamento de Linguagem Natural é um dos pilares para simular um ecossistema de cardiologia moderna no projeto CardioIA. O corpus textual selecionado e as técnicas de NLP propostas atuarão em três frentes principais:
+
+Base de Conhecimento para Assistentes Virtuais (Chatbots): Os artigos sobre insuficiência cardíaca e fatores de risco servirão como um banco de dados estruturado. Um agente conversacional inteligente poderá consultar esse acervo (utilizando técnicas como Retrieval-Augmented Generation - RAG) para fornecer respostas precisas e seguras a dúvidas frequentes de pacientes, atuando como um canal de triagem primária e orientação.
+
+Extração e Estruturação de Prontuários (NER): Na prática clínica, a maior parte dos dados do paciente está em formato de texto livre (anotações médicas e de enfermagem). Ao treinar modelos de extração (NER) nos artigos científicos do Scielo, capacitamos a IA a ler prontuários desestruturados, extrair as variáveis clínicas (como "pressão alta" ou "tabagismo") e transformá-las em dados numéricos. Isso permitirá cruzar as informações textuais com o nosso dataset da Fase 1 para retroalimentar os modelos preditivos.
+
+Suporte Psicológico e Análise de Sentimento: Utilizando o artigo sobre a perspectiva da finitude, podemos treinar modelos analíticos para identificar o tom emocional em relatos de pacientes. Isso fornece à equipe multidisciplinar (enfermagem e psicologia) um "termômetro" do estado mental do paciente com doença avançada, permitindo abordagens terapêuticas mais humanizadas e direcionadas.
+
+#### 3.3 Justificativa
+
+A integração de Processamento de Linguagem Natural é um dos pilares para simular um ecossistema de cardiologia moderna no projeto CardioIA. O corpus textual selecionado e as técnicas de NLP propostas atuarão em 2 frentes principais:
+
+- Base de Conhecimento para Assistentes Virtuais (Chatbots): Os artigos sobre práticas clínicas servirão como um banco de dados estruturado. Um agente conversacional inteligente poderá consultar esse acervo (para fornecer respostas precisas e seguras a dúvidas frequentes e elaborar respostas de segundo o público de interesse (médicos, pacientes ou enfermeiros, por exemplo) , atuando como um canal de triagem primária e orientação.
+- Suporte Psicológico e Análise de Sentimento: Utilizando o artigo sobre a perspectiva da finitude, podemos treinar modelos analíticos para identificar o tom emocional em relatos de pacientes. Isso fornece à equipe multidisciplinar (enfermagem e psicologia) um "termômetro" do estado mental do paciente permitindo abordagens terapêuticas mais humanizadas e direcionadas.
+
 
 ### 4. Dados de Imagens
 
