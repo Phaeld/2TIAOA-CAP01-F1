@@ -19,7 +19,7 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/in/leonardoorabona">Leonardo Ruiz Orabona</a>
+- <a href="https://www.linkedin.com/in/caique-nonato/">Caique Nonato da Silva Bezerra</a>
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/andregodoichiovato">André Godoi</a>
 
